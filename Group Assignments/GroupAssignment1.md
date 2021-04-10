@@ -3,15 +3,21 @@ https://github.com/ivanma9/HappyTweet
 ## Introduction:
 Our group name is “Happy Tweet” and our project looks at social media usage (specifically Twitter usage) and world happiness data. We are trying to see if there is a relationship between trends in world happiness scores and social media use.
 ## Team Members:
-# MJ Howland - Content Creator
+### MJ Howland - Content Creator
+
+<img src = "img/MJ.png">
 
 I am a third-year sociology student minoring in digital humanities and art history. In my free time I serve as the co-captain of the UCLA Sailing Team. When I graduate, I am interested in pursuing a career in digital marketing and brand strategy.
 For this project, I will be overseeing the writing and design process. I will be the one writing up anything for the website, including introductions, background information, research, etc. As for helping with the design, the plan is to draft ideas in Figma, a designing platform, so that Ivan can go in and utilize the actual code for my designs. 
-# Ivan Ma - Web Developer
+### Ivan Ma - Web Developer
+
+<img src = "img/Ivan.png">
 
 I am a third-year/first year transfer computer science student. I love to play soccer on a competitive level and munch on all sorts of food.
 I will be conducting most of the coding for this project. Piecing together our creative ideas into a web application that integrates thick mapping is a goal that I want to contribute for our project. I hope to collaborate with my group mates in Figma and keep and maintain good user design and experience for the interactivity of our site. 
-# Josephine Meyer-Hogan - Team Leader
+### Josephine Meyer-Hogan - Team Leader
+
+<img src = "img/Josephine.png">
 
 I am a fourth year materials science engineering student. I like to play tennis and am interested in jobs in product development after I graduate. 
 For this project, I will be the team leader. I am going to coordinate all of our meetings, keep us on track, as well as bridging the gap between the coding and writing processes. In addition, I will be doing background research after our data analysis so we can come to a further understanding about the project. 
