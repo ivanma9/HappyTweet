@@ -27,8 +27,7 @@ Web mapping is a very diverse method of communicating often used to tell stories
 | 4 | Prep | <ul><li> Data cleaning / refining</li><li> Finalizing the objectives we want to accomplish / what we want the end product to include</li><ul> |
 | 5 | Starting to Code + Design | <ul> <li> Start coding website </li><li> Start coding maps</li> <li> Start working in figma to create design </li></ul>|
 | 6 | Continue Coding + Design | Continue Above |
-| 7 | Continue Coding + Design + Start Writing | 
-<ul> <li>Continue Above </li><li> Start drafting writing for the website </li></ul>|
+| 7 | Continue Coding + Design + Start Writing | <ul> <li>Continue Above </li><li> Start drafting writing for the website </li></ul>|
 | 8 | Continue Coding + Design + Writing | Continue Above |
 | 9 | Start to finalize | Start making edits and making sure all site pages have their proper content |
 | 10 | Continue finalizing | By now we should have the website pretty much completed and just making last minute edits |
