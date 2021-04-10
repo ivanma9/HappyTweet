@@ -23,35 +23,27 @@ Web mapping is a very diverse method of communicating often used to tell stories
 | Week | Phase | Tasks To Complete |
 | ---- | ----- | ----------------- | 
 | 2 | Brainstorming | Group project proposal |
-| 3 | Research | - Do background research on our topic so that we can include relevant information on the website |
-4
-Prep
-- Data cleaning / refining
-- Finalizing the objectives we want to accomplish / what we want the end product to include
-5
-Starting to Code + Design
+| 3 | Research | 
+- Do background research on our topic so that we can include relevant information on the website |
+| 4 | Prep | 
+- Data cleaning / refining 
+- Finalizing the objectives we want to accomplish / what we want the end product to include |
+| 5 | Starting to Code + Design | 
 - Start coding website
 - Start coding maps
-- Start working in figma to create design
-6
-Continue Coding + Design
+- Start working in figma to create design |
+| 6 | Continue Coding + Design | 
+- Continue Above |
+| 7 | Continue Coding + Design + Start Writing | 
 - Continue Above
-7
-Continue Coding + Design + Start Writing
-- Continue Above
-- Start drafting writing for the website
-8
-Continue Coding + Design + Writing
-Contine Above
-9
-Start to finalize
-- Start making edits and making sure all site pages have their proper content
-10
-Continue finalizing
-- By now we should have the website pretty much completed and just making last minute edits
-Finals
-Final
-- Present to the class
+- Start drafting writing for the website |
+| 8 | Continue Coding + Design + Writing | Continue Above |
+| 9 | Start to finalize | 
+- Start making edits and making sure all site pages have their proper content |
+| 10 | Continue finalizing |
+- By now we should have the website pretty much completed and just making last minute edits |
+| Finals | Final |
+- Present to the class |
 
  
 ## Technical Scope:
