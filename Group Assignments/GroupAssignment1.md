@@ -1,7 +1,7 @@
 ## Group Repository
 https://github.com/ivanma9/HappyTweet
 ## Introduction:
-	Our group name is “Happy Tweet” and our project looks at social media usage (specifically Twitter usage) and world happiness data. We are trying to see if there is a relationship between trends in world happiness scores and social media use.
+Our group name is “Happy Tweet” and our project looks at social media usage (specifically Twitter usage) and world happiness data. We are trying to see if there is a relationship between trends in world happiness scores and social media use.
 ## Team Members:
 # MJ Howland - Content Creator
 
@@ -20,15 +20,10 @@ Our group wants to investigate the connection between world happiness and social
 ## Methodology:
 Web mapping is a very diverse method of communicating often used to tell stories, answer questions, and represent data. A map is able to portray information in a way that more traditional data graphics cannot. The perspective that comes with viewing data geographically is very unique and discovering correlations in the data becomes much easier. There is also often data that needs to be analyzed with the location in mind, as in our case. In our investigation, we are looking for a correlation between happiness and social media use in the US. This data utilizes geolocation as the foundation for data collection. Location provides a common ground that allows us to analyze and compare multiple data sets in order to find similarities. 
 ## Workflow:
-Week
-Phase
-Tasks To Complete
-2
-Brainstorming
-Group project proposal
-3
-Research 
-- Do background research on our topic so that we can include relevant information on the website
+| Week | Phase | Tasks To Complete |
+| ---- | ----- | ----------------- | 
+| 2 | Brainstorming | Group project proposal |
+| 3 | Research | - Do background research on our topic so that we can include relevant information on the website |
 4
 Prep
 - Data cleaning / refining
