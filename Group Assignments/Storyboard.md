@@ -13,6 +13,12 @@ Part 2: Storyboard
 
 Our mind maps and crazy 8's can be viewed here: https://drive.google.com/drive/folders/19c2yBLVVg7wtwlWLsu2WnSX1s-8s-PBJ?usp=sharing
 
+<img src = "img/MJ_Crazy_8.JPG">
+<img src = "img/MJ_Mind_Map.JPG">
+<img src = "img/Crazy8 Ivan.pdf">
+<img src = "img/Mindmap Ivan.pdf">
+<img src = "JosephineMindmap_crazy9.pdf">
+
 On our mindmaps and crazy 8's: 
 
 When sharing our mind maps and crazy 8’s, we found that we were all on the same page/had similar ideas in terms of extra features that we wanted to add. The main ones include: some feature of interactivity for the users where they are able to engage with the map by using a slider bar or something similar to indicate their happiness level. We also want to include a feature that asks the user their location, and maybe their twitter usage so we can plot their points on the map as well.
