@@ -15,7 +15,8 @@ Our mind maps and crazy 8's can be viewed here: https://drive.google.com/drive/f
 
 <img src = "img/MJ_Crazy_8.JPG">
 <img src = "img/MJ_Mind_Map.JPG">
-<img src = "img/Crazy8 Ivan.pdf">
+<embed src="/img/Crazy8 Ivan.pdf" type="application/pdf">
+
 <img src = "img/Mindmap Ivan.pdf">
 <img src = "JosephineMindmap_crazy9.pdf">
 
