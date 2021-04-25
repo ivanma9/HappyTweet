@@ -6,12 +6,10 @@ We will be using two datasets, which are linked below. The first one shows Twitt
 Twitter Data: https://www.kaggle.com/sajidhasanapon/twitter-connections-with-user-location
 World Happines Data: https://www.kaggle.com/unsdsn/world-happiness?select=2018.csv
 
-All data will be downloaded as CSV files and will be geocoded using html, css, and javascript in Visual Code Studio...
-
+Twitter Data will be downloaded as txt file. We will convert the txt to a csv file or into a JSON object. We will feed both the newly converted Twitter Data and the World Happiness Data csv into Javascipt so that the Javascript will be able to parse everything properly and output all the location markers in HTML stylized by CSS elements.
+We will have different maps for Twitter, World Happiness, and a cross of the two. Each Twitter data marker will include information of the tweet, and its geolocation; the marker will be shaped like a bird. The goal of this is show activity in certain locations and display the density of tweets. The happiness markers are going to be labeled by year, and have a visual display of certain score breakdowns to give it an overall happiness score in which we would color code on a scale of red to green (unhappy to happy). All details will be available on hover of a marker, but if the data gets too crowded, we may display the more information in a div section on the sid, so the user can still see the other markers.
 
 Part 2: Storyboard
-
-Our mind maps and crazy 8's can be viewed here: https://drive.google.com/drive/folders/19c2yBLVVg7wtwlWLsu2WnSX1s-8s-PBJ?usp=sharing
 
 <img src = "img/MJ_Crazy_8.JPG">
 <img src = "img/MJ_Mind_Map.JPG">
