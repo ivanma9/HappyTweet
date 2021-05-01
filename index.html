@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>World</title>
+		<title>Happy Tweet</title>
 		<meta charset="utf-8" />
 
 		<!-- style sheets -->
@@ -36,32 +36,32 @@
 		<script src="js/papaparse.min.js"></script>
 	</head>
 	<body>
-		<div class="header">
-			<div id="logo">
-				<img src="image 1.svg" />
-				Happy Tweet
+		<div class="main">
+			<div class="header">
+				<div id="logo">
+					<img src="image 1.svg" />
+					Happy Tweet
+				</div>
+				<hr class="rounded" />
+				<nav>
+					<ul>
+						<li><a href="index.html">#HOME </a></li>
+						<li><a href="about.html">#ABOUT </a></li>
+						<li><a href="figures.html">#FACTS AND FIGURES</a></li>
+					</ul>
+				</nav>
+				<hr class="rounded" />
 			</div>
-			<nav>
-				<ul>
-					<li><a href="index.html">#HOME </a></li>
-					<li><a href="about.html">#ABOUT </a></li>
-					<li><a href="figures.html">#FACTS AND FIGURES</a></li>
-				</ul>
-			</nav>
-			<hr class="rounded" />
-		</div>
 
-		<div class="sidebar">
-			<div class="sidebar-title">Date</div>
-			<div class="sidebar-content"></div>
+			<div class="sidebar">
+				<div class="sidebar-title">Date</div>
+				<div class="sidebar-content"></div>
+			</div>
+			<div class="content" id="map"></div>
+			<div class="footer">
+				Happy Tweet | DH151 | Ivan Ma, MJ Howland, Josephine Meyer-Hogan
+			</div>
 		</div>
-		<div class="content">
-			<div id="map"></div>
-		</div>
-		<div class="footer">
-			Happy Tweet | DH151 | Ivan Ma, MJ Howland, Josephine Meyer-Hogan
-		</div>
-
 		<script src="js/map.js"></script>
 	</body>
 </html>

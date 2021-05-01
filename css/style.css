@@ -10,25 +10,30 @@ html {
 }
 
 body {
+	background-color: #5a94d9;
+	font-family: "Josefin Sans", sans-serif;
+}
+.main {
 	display: grid;
-	grid-template-rows: 120px 1fr 40px;
+	grid-template-rows: 176px 650px 30px;
 	grid-template-columns: 300px 1fr;
 	grid-template-areas:
 		"header header"
 		"sidebar content"
 		"footer footer";
-	background-color: #5a94d9;
 }
 
 .header {
 	grid-area: header;
-	font-family: "Josefin Sans", sans-serif;
 	background-color: #5a94d9;
 	color: white;
 }
 
 .full {
 	width: 100%;
+	font-size: 30px;
+	font-family: "Josefin Sans", sans-serif;
+	color: white;
 }
 
 nav {
@@ -51,7 +56,7 @@ ul {
 #logo {
 	padding-top: 23px;
 	padding-left: 23px;
-	font-size: 50px;
+	font-size: 60px;
 }
 
 .header li {
@@ -63,13 +68,15 @@ li a {
 	color: white;
 	text-align: center;
 	border-radius: 20px;
-	padding: 14px 16px;
+	padding: 14px;
+	max-height: 24px;
 	margin-right: 10px;
 	text-decoration: none;
 }
 
 li a:hover:not(.active) {
-	background-color: rgb(9, 39, 104);
+	background-color: white;
+	color: #5a94d9;
 }
 
 li a .active {
@@ -77,10 +84,10 @@ li a .active {
 }
 
 .sidebar {
-	color: white;
+	color: rgb(255, 255, 255);
 	grid-area: sidebar;
 	padding: 10px;
-	background-color: rgb(9, 39, 104);
+	background-color: rgb(63, 63, 63);
 	overflow: auto;
 }
 
@@ -89,23 +96,61 @@ li a .active {
 }
 /* Rounded border */
 hr.rounded {
-	border-top: 8px solid #bbb;
+	border-top: 8px solid white;
+	width: 100%;
 	border-radius: 5px;
 }
 .footer {
 	grid-area: footer;
 	padding: 10px;
-	background-color: rgb(175, 175, 175);
+	background-color: rgb(255, 255, 255);
 }
 #aboutproj {
-	width: 1800px;
 	height: 400px;
 	left: 0px;
 	margin-top: 77px;
-	
-
-	background: #f2f2f2;
+	padding: 30px;
+	background: #ffffff;
+	color: rgb(84, 84, 84);
 }
-
+#team {
+	padding: 30px;
+}
+#teamimg {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.team-item {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 30px;
+}
+.pfp {
+	margin-left: 70px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 200px;
+}
+.pfp img {
+	width: 200px;
+	height: 200px;
+	max-width: 300px;
+	max-height: 300px;
+	border-radius: 50%;
+	margin-bottom:10px;
+}
+.blurb {
+	margin: 60px;
+	margin-top: 10px;
+	margin-left: 190px;
+	font-size: 25px;
+	line-height: 1.6;
+}
 #usingmaps {
+	padding: 30px;
+	height: 500px;
 }
