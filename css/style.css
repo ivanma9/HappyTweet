@@ -15,7 +15,7 @@ body {
 }
 .main {
 	display: grid;
-	grid-template-rows: 176px 650px 30px;
+	grid-template-rows: 205px 650px 30px;
 	grid-template-columns: 300px 1fr;
 	grid-template-areas:
 		"header header"
@@ -56,13 +56,15 @@ nav ul {
 #logo {
 	padding-top: 20px;
 	padding-left: 20px;
-	font-size: 60px;
+	font-size: 90px;
 	display: flex;
 	align-items: flex-start;
 }
 #logo img {
-	width: 60px;
-	height: 60px;
+	width: 90px;
+	height: 90px;
+	max-width: 100%;
+	max-height: 100%;
 	margin-right: 30px;
 }
 
@@ -143,7 +145,7 @@ hr.rounded {
 	background-color: rgb(255, 255, 255);
 }
 #aboutproj {
-	height: 700px;
+	min-height: 700px;
 	left: 0px;
 	margin-top: 77px;
 	padding: 30px;
@@ -198,6 +200,10 @@ p {
 	margin-left: 190px;
 	font-size: 25px;
 	line-height: 1.6;
+}
+.blurb p {
+	font-size: 30px;
+	font-weight: bold;
 }
 #usingmaps {
 	padding: 30px;
