@@ -31,7 +31,7 @@ body {
 
 .full {
 	width: 100%;
-	font-size: 30px;
+	font-size: 34px;
 	font-family: "Josefin Sans", sans-serif;
 	color: white;
 }
@@ -42,7 +42,7 @@ nav {
 	padding: 0;
 }
 
-ul {
+nav ul {
 	display: flex;
 	list-style-type: none;
 	margin: 0;
@@ -54,9 +54,16 @@ ul {
 }
 
 #logo {
-	padding-top: 23px;
-	padding-left: 23px;
+	padding-top: 20px;
+	padding-left: 20px;
 	font-size: 60px;
+	display: flex;
+	align-items: flex-start;
+}
+#logo img {
+	width: 60px;
+	height: 60px;
+	margin-right: 30px;
 }
 
 .header li {
@@ -87,8 +94,38 @@ li a .active {
 	color: rgb(255, 255, 255);
 	grid-area: sidebar;
 	padding: 10px;
-	background-color: rgb(63, 63, 63);
+	/* background-color: rgb(63, 63, 63); */
+	background-color: #5a94d9;
 	overflow: auto;
+}
+.sidebar-title {
+	font-size: 24px;
+	margin: 10px;
+}
+.map-option {
+	display: flex;
+	flex-direction: column;
+	line-height: 1;
+}
+.map-icon {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border-width: 10px;
+	margin-bottom: 10px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+}
+.map-icon img {
+	max-width: 80%;
+	max-height: 80%;
+	border-radius: 50%;
+	margin: 0;
+	padding: 0;
 }
 
 .content {
@@ -106,12 +143,21 @@ hr.rounded {
 	background-color: rgb(255, 255, 255);
 }
 #aboutproj {
-	height: 400px;
+	height: 700px;
 	left: 0px;
 	margin-top: 77px;
 	padding: 30px;
 	background: #ffffff;
 	color: rgb(84, 84, 84);
+}
+p {
+	font-size: 20px;
+	line-height: 1.4;
+}
+#aboutproj ul {
+	font-style: normal;
+	font-size: 20px;
+	line-height: 1.4;
 }
 #team {
 	padding: 30px;
@@ -141,7 +187,10 @@ hr.rounded {
 	max-width: 300px;
 	max-height: 300px;
 	border-radius: 50%;
-	margin-bottom:10px;
+	margin-bottom: 10px;
+}
+.pfp p {
+	font-size: 30px;
 }
 .blurb {
 	margin: 60px;
@@ -153,4 +202,8 @@ hr.rounded {
 #usingmaps {
 	padding: 30px;
 	height: 500px;
+}
+#usingmaps p {
+	font-size: 24px;
+	line-height: 1.4;
 }
