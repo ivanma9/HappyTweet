@@ -3,14 +3,31 @@ let map;
 let lat = 0;
 let lon = 0;
 let zl = 3;
-let path = "data/happiness_cities.csv";
+let path1 = "data/happiness_cities.csv";
+let path2 = "data/user_tweet.csv";
 let markers = L.featureGroup();
 
 // initialize
 $(document).ready(function () {
 	createMap(lat, lon, zl);
-	readCSV(path);
+	// readCSV(path);
 });
+
+function makeHappinessMap() {
+	markers.clearLayers();
+	readCSV(path1, "h");
+}
+
+function makeTwitterMap() {
+	markers.clearLayers();
+	readCSV(path2, "t");
+}
+
+function makeBothMap() {
+	markers.clearLayers();
+	readCSV(path1, "h");
+	readCSV(path2, "t");
+}
 
 // create the map
 function createMap(lat, lon, zl) {
@@ -23,7 +40,7 @@ function createMap(lat, lon, zl) {
 }
 
 // function to read csv data
-function readCSV(path) {
+function readCSV(path, type) {
 	Papa.parse(path, {
 		header: true,
 		download: true,
@@ -31,7 +48,11 @@ function readCSV(path) {
 			console.log(data);
 
 			// map the data
-			mapCSV(data);
+			if (type == "h") {
+				mapCSV(data);
+			} else if (type == "t") {
+				mapCSVTweet(data);
+			}
 		},
 	});
 }
@@ -46,9 +67,53 @@ function mapCSV(data) {
 		fillOpacity: 1,
 	};
 
+	let dataArray = data.data;
+
+	let sliced1000 = dataArray.slice(0, 1000);
+
 	// loop through each entry
-	data.data.forEach(function (item, index) {
-		console.log(item);
+	sliced1000.forEach(function (item, index) {
+		// console.log(item);
+		let marker = L.circleMarker([item.lat, item.lon], circleOptions).on(
+			"mouseover",
+			function () {
+				this.bindPopup(`${label} <br>`).openPopup();
+			}
+		);
+
+		// add marker to featuregroup
+		markers.addLayer(marker);
+
+		// // add entry to sidebar
+		// $(".sidebar").append(
+		// 	`<img src="${item.thumbnail_url}" onmouseover="panToImage(${index})">`
+		// );
+	});
+
+	// add featuregroup to map
+	markers.addTo(map);
+
+	// fit map to markers
+	map.fitBounds(markers.getBounds());
+}
+
+function mapCSVTweet(data) {
+	// circle options
+	let circleOptions = {
+		radius: 5,
+		weight: 1,
+		color: "#878787",
+		fillColor: "#D19D1F",
+		fillOpacity: 1,
+	};
+
+	let dataArray = data.data;
+
+	let sliced1000 = dataArray.slice(0, 100);
+
+	// loop through each entry
+	sliced1000.forEach(function (item, index) {
+		// console.log(item);
 		let marker = L.circleMarker([item.lat, item.lon], circleOptions).on(
 			"mouseover",
 			function () {
