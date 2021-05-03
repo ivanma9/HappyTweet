@@ -4,7 +4,7 @@ https://github.com/ivanma9/HappyTweet
 
 ## Introduction:
 
-Our group name is “Happy Tweet” and our project looks at social media usage (specifically Twitter usage) and happiness levels across cities in the U.S. We are trying to see if there is a relationship between trends in overall happiness and Twitter usage/content. The purpose of this project is to highlight the potential damaging nature of social media and the central role it plays in today’s society.
+Our group name is “Happy Tweet” and our project looks at social media usage (specifically Twitter usage) and happiness levels across cities in the U.S. We are trying to see if there is a relationship between trends in overall happiness and Twitter usage/content in the United States. The purpose of this project is to highlight the potential damaging nature of social media and the central role it plays in today’s society.
 
 ## Team Members:
 
@@ -26,7 +26,7 @@ I will be conducting most of the coding for this project. Piecing together our c
 
 <img src = "img/Josephine.png">
 
-Our group wants to investigate the potential connection between happiness and social media usage. We want to know if today’s heightened usage of social media has damaging mental consequences on the general public. We will be using twitter data that includes information about the content of a tweet and the location of the associated user, as well as a dataset from Wallethub that includes various measures that speak to the happiness levels of different cities. We hope to see if there is a potential correlation between these happiness levels and the amount of twitter activity by paying attention to which cities have more twitter users, and what the happiness scores of those cities are.
+Our group wants to investigate the potential connection between happiness and social media usage in the United States. We want to know if today’s heightened usage of social media has damaging mental consequences on the general public. We will be using twitter data that includes information about the content of a tweet and the location of the associated user, as well as a dataset from Wallethub that includes various measures that speak to the happiness levels of different cities. We hope to see if there is a potential correlation between these happiness levels and the amount of twitter activity by paying attention to which cities have more twitter users, and what the happiness scores of those cities are.
 We think that this topic of social media is especially relevant considering today’s increased dependency on social media (and technology in general as a result of Covid-19).
 
 ## Methodology:
