@@ -16,7 +16,7 @@ body {
 .main {
 	display: grid;
 	grid-template-rows: 205px 650px 30px;
-	grid-template-columns: 300px 1fr;
+	grid-template-columns: 342px 1fr;
 	grid-template-areas:
 		"header header"
 		"sidebar content"
@@ -107,7 +107,8 @@ li a .active {
 .map-option {
 	display: flex;
 	flex-direction: column;
-	line-height: 1;
+	align-items: center;
+	margin: 20px 5px;	
 }
 .map-icon {
 	width: 100px;
@@ -120,6 +121,10 @@ li a .active {
 	justify-content: center;
 	align-items: center;
 	margin: 0;
+	padding: 0;
+}
+.map-option p {
+	margin: 5px;
 	padding: 0;
 }
 .map-icon img {
