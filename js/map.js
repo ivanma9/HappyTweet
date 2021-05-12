@@ -7,6 +7,10 @@ let path1 = "data/happiness_cities.csv";
 let path2 = "data/user_tweet.csv";
 let markers = L.featureGroup();
 
+let brew= new classybrew(); 
+let legend = L.control({position: 'bottomright'});
+let info_panel = L.control();
+
 // initialize
 $(document).ready(function () {
 	createMap(lat, lon, zl);
@@ -142,6 +146,37 @@ function panToImage(index) {
 	map.panTo(markers.getLayers()[index]._latlng);
 }
 
+function createLegend(){
+	legend.onAdd = function (map) {
+		var div = L.DomUtil.create('div', 'info legend'),
+		breaks = brew.getBreaks(),
+		labels = [],
+		from, to;
+		
+		for (var i = 0; i < breaks.length; i++) {
+			from = breaks[i];
+			to = breaks[i + 1];
+			if(to) {
+				labels.push(
+					'<i style="background:' + brew.getColorInRange(from) + '"></i> ' +
+					from.toFixed(2) + ' &ndash; ' + to.toFixed(2));
+				}
+			}
+			
+			div.innerHTML = labels.join('<br>');
+			return div;
+		};
+		
+		legend.addTo(map);
+}
+
+function mappath1(field){
+
+	...
+
+	// create the legend
+	createLegend();
+}
 //const provider = new GeoSearch.OpenStreetMapProvider();
 
 // // create a marker
