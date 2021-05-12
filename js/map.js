@@ -172,7 +172,7 @@ function createLegend(){
 
 function mappath1(field){
 
-	...
+	
 
 	// create the legend
 	createLegend();
