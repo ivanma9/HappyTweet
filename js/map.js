@@ -5,7 +5,7 @@ let lon = 0;
 let zl = 3;
 let path1 = "data/happiness_cities.csv";
 let path2 = "data/user_tweet.csv";
-let geojsonPath = "data/cities.json";
+let geojsonPath = "data/happy_cities.json";
 let markers = L.featureGroup();
 
 let geojson_data;
@@ -160,7 +160,7 @@ function getGeoJSON() {
 		geojson_data = data;
 
 		// call the map function
-		mapGeoJSON("name", 7, "YlOrRd", "quantile");
+		mapGeoJSON("happy score", 7, "YlOrRd", "quantile");
 	});
 }
 function mapGeoJSON(field, num_classes, color, scheme) {
@@ -189,7 +189,7 @@ function mapGeoJSON(field, num_classes, color, scheme) {
 
 	// create the layer and add to map
 	geojson_layer = L.geoJson(geojson_data, {
-		style: getStyle, //call a function to style each feature
+		pointToLayer: getStyle, //call a function to style each feature
 		onEachFeature: onEachFeature, // actions on each feature
 	}).addTo(map);
 
@@ -207,7 +207,7 @@ function getStyle(feature) {
 		color: "white",
 		weight: 1,
 		fill: true,
-		fillColor: brew.getColorInRange(feature.properties[fieldtomap]),
+		fillColor: getColor(feature.properties[fieldtomap]), //brew.getColorInRange(feature.properties[fieldtomap]),
 		fillOpacity: 0.8,
 	};
 }
@@ -245,7 +245,7 @@ function createLegend() {
 			if (to) {
 				labels.push(
 					'<i style="background:' +
-						brew.getColorInRange(to) +
+						getColor(to) +
 						'"></i> ' +
 						from.toFixed(2) +
 						" &ndash; " +
