@@ -23,7 +23,7 @@
 
 {"type":"Feature","properties":{"name":"Irvine CA","country.etc":"CA","pop":" 199755","happy score":"67.27","capital":"0"},"geometry":{"type":"Point","coordinates":[-117.8,33.66]}},
 
-{"type":"Feature","properties":{"name":"San Francisco CA","country.etc":"CA","pop":" 723724", "happy score":"67.11,"capital":"0"},"geometry":{"type":"Point","coordinates":[-122.45,37.77]}},
+{"type":"Feature","properties":{"name":"San Francisco CA","country.etc":"CA","pop":" 723724", "happy score":"67.11","capital":"0"},"geometry":{"type":"Point","coordinates":[-122.45,37.77]}},
 
 14.
 {"type":"Feature","properties":{"name":"Pearl City HI","country.etc":"Hi","pop":" 45605","happy score":"66.58","capital":"0"},"geometry":{"type":"Point","coordinates":[21.398204,-157.9683955]}},
