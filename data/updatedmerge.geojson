@@ -72,7 +72,7 @@
 
 {"type":"Feature","properties":{"name":"Des Moines IA","country.etc":"IA","pop":" 192050", "happy score":62.33,"capital":"2"},"geometry":{"type":"Point","coordinates":[-93.62,41.58]}},
 
-{"type":"Feature","properties":{"name":"Gilbert AZ","country.etc":"AZ","pop":"243254" "happy score":62.09, 186332","capital":"0"},"geometry":{"type":"Point","coordinates":[-111.76,33.33]}},
+{"type":"Feature","properties":{"name":"Gilbert AZ","country.etc":"AZ","pop":"243254" "happy score":62.09,"capital":"0"},"geometry":{"type":"Point","coordinates":[-111.76,33.33]}},
 
 {"type":"Feature","properties":{"name":"Oakland CA","country.etc":"CA","pop":" 393632", "happy score":61.38,"capital":"0"},"geometry":{"type":"Point","coordinates":[-122.22,37.77]}},
 
