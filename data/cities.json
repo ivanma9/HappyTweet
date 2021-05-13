@@ -362,19 +362,6 @@
 
 {"type":"Feature","properties":{"name":"Cleveland OH","country.etc":"OH","pop":" 443949", "happy score":37.48,"capital":"0"},"geometry":{"type":"Point","coordinates":[-81.68,41.48]}},
 
-{"type":"Feature","properties":{"name":"Detroit MI","country.etc":"MI","pop":" 871789", "happy score":34.29,"capital":"0"},"geometry":{"type":"Point","coordinates":[-83.1,42.38]}},
-
-
+{"type":"Feature","properties":{"name":"Detroit MI","country.etc":"MI","pop":" 871789", "happy score":34.29,"capital":"0"},"geometry":{"type":"Point","coordinates":[-83.1,42.38]}}
 ]
 }
-
-
-
-
-
-
-
-
-
-
-]
