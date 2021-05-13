@@ -1,47 +1,28 @@
 {"type":"FeatureCollection","features":[
-1.
 {"type":"Feature","properties":{"name":"Fremont CA","country.etc":"CA","pop":" 202574","capital":"0"},"geometry":{"type":"Point","coordinates":[-122,37.53]}},
 
-2.
 {"type":"Feature","properties":{"name":"Bismarck ND","country.etc":"ND","pop":"  56927","capital":"2"},"geometry":{"type":"Point","coordinates":[-100.77,46.81]}},
 
-3.
 {"type":"Feature","properties":{"name":"Fargo ND","country.etc":"ND","pop":"  92396","capital":"0"},"geometry":{"type":"Point","coordinates":[-96.82,46.88]}},
 
-
-4.
 {"type":"Feature","properties":{"name":"Madison WI","country.etc":"WI","pop":" 227642","capital":"2"},"geometry":{"type":"Point","coordinates":[-89.39,43.08]}},
 
-
-5.
 {"type":"Feature","properties":{"name":"San Jose CA","country.etc":"CA","pop":" 897883","capital":"0"},"geometry":{"type":"Point","coordinates":[-121.85,37.3]}},
 
-6.
 {"type":"Feature","properties":{"name":"South Burlington VT","country.etc":"VT","pop":"  19162","capital":"0"},"geometry":{"type":"Point","coordinates":[44.468286,-73.171594]}},
 
-7.
 {"type":"Feature","properties":{"name":"Lincoln NE","country.etc":"NE","pop":" 245301","capital":"2"},"geometry":{"type":"Point","coordinates":[-96.69,40.82]}},
 
-
-8.
 {"type":"Feature","properties":{"name":"Columbia MD","country.etc":"MD","pop":"  97772","capital":"0"},"geometry":{"type":"Point","coordinates":[-76.86,39.2]}},
 
-
-9.
 {"type":"Feature","properties":{"name":"Cedar Rapids IA","country.etc":"IA","pop":" 123243","capital":"0"},"geometry":{"type":"Point","coordinates":[-91.67,41.97]}},
 
-10.
 {"type":"Feature","properties":{"name":"Santa Rosa CA","country.etc":"CA","pop":" 156669","capital":"0"},"geometry":{"type":"Point","coordinates":[-122.7,38.45]}},
 
-
-11.
 {"type":"Feature","properties":{"name":"Sioux Falls SD","country.etc":"SD","pop":" 143534","capital":"0"},"geometry":{"type":"Point","coordinates":[-96.73,43.54]}},
 
-12.
 {"type":"Feature","properties":{"name":"Irvine CA","country.etc":"CA","pop":" 199755","capital":"0"},"geometry":{"type":"Point","coordinates":[-117.8,33.66]}},
 
-
-13.
 {"type":"Feature","properties":{"name":"San Francisco CA","country.etc":"CA","pop":" 723724","capital":"0"},"geometry":{"type":"Point","coordinates":[-122.45,37.77]}},
 
 14.
