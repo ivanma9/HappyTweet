@@ -1,54 +1,54 @@
 {"type":"FeatureCollection","features":[
-{"type":"Feature","properties":{"name":"Fremont CA","country.etc":"CA","pop":" 202574","capital":"0"},"geometry":{"type":"Point","coordinates":[-122,37.53]}},
+{"type":"Feature","properties":{"name":"Fremont CA","country.etc":"CA","pop":" 202574", "happy score":"73.66","capital":"0"},"geometry":{"type":"Point","coordinates":[-122,37.53]}},
 
-{"type":"Feature","properties":{"name":"Bismarck ND","country.etc":"ND","pop":"  56927","capital":"2"},"geometry":{"type":"Point","coordinates":[-100.77,46.81]}},
+{"type":"Feature","properties":{"name":"Bismarck ND","country.etc":"ND","pop":"  56927", "happy score":"71.59","capital":"2"},"geometry":{"type":"Point","coordinates":[-100.77,46.81]}},
 
-{"type":"Feature","properties":{"name":"Fargo ND","country.etc":"ND","pop":"  92396","capital":"0"},"geometry":{"type":"Point","coordinates":[-96.82,46.88]}},
+{"type":"Feature","properties":{"name":"Fargo ND","country.etc":"ND","pop":"  92396","happy score":"70.94","capital":"0"},"geometry":{"type":"Point","coordinates":[-96.82,46.88]}},
 
-{"type":"Feature","properties":{"name":"Madison WI","country.etc":"WI","pop":" 227642","capital":"2"},"geometry":{"type":"Point","coordinates":[-89.39,43.08]}},
+{"type":"Feature","properties":{"name":"Madison WI","country.etc":"WI","pop":" 227642", "happy score":"70.14","capital":"2"},"geometry":{"type":"Point","coordinates":[-89.39,43.08]}},
 
-{"type":"Feature","properties":{"name":"San Jose CA","country.etc":"CA","pop":" 897883","capital":"0"},"geometry":{"type":"Point","coordinates":[-121.85,37.3]}},
+{"type":"Feature","properties":{"name":"San Jose CA","country.etc":"CA","pop":" 897883", "happy score":"69.47","capital":"0"},"geometry":{"type":"Point","coordinates":[-121.85,37.3]}},
 
-{"type":"Feature","properties":{"name":"South Burlington VT","country.etc":"VT","pop":"  19162","capital":"0"},"geometry":{"type":"Point","coordinates":[44.468286,-73.171594]}},
+{"type":"Feature","properties":{"name":"South Burlington VT","country.etc":"VT","pop":"  19162", "happy score":"68.73","capital":"0"},"geometry":{"type":"Point","coordinates":[44.468286,-73.171594]}},
 
-{"type":"Feature","properties":{"name":"Lincoln NE","country.etc":"NE","pop":" 245301","capital":"2"},"geometry":{"type":"Point","coordinates":[-96.69,40.82]}},
+{"type":"Feature","properties":{"name":"Lincoln NE","country.etc":"NE","pop":" 245301", "happy score":"68.35","capital":"2"},"geometry":{"type":"Point","coordinates":[-96.69,40.82]}},
 
-{"type":"Feature","properties":{"name":"Columbia MD","country.etc":"MD","pop":"  97772","capital":"0"},"geometry":{"type":"Point","coordinates":[-76.86,39.2]}},
+{"type":"Feature","properties":{"name":"Columbia MD","country.etc":"MD","pop":"  97772", "happy score":"67.73","capital":"0"},"geometry":{"type":"Point","coordinates":[-76.86,39.2]}},
 
-{"type":"Feature","properties":{"name":"Cedar Rapids IA","country.etc":"IA","pop":" 123243","capital":"0"},"geometry":{"type":"Point","coordinates":[-91.67,41.97]}},
+{"type":"Feature","properties":{"name":"Cedar Rapids IA","country.etc":"IA","pop":" 123243", "happy score":"67.64","capital":"0"},"geometry":{"type":"Point","coordinates":[-91.67,41.97]}},
 
-{"type":"Feature","properties":{"name":"Santa Rosa CA","country.etc":"CA","pop":" 156669","capital":"0"},"geometry":{"type":"Point","coordinates":[-122.7,38.45]}},
+{"type":"Feature","properties":{"name":"Santa Rosa CA","country.etc":"CA","pop":" 156669", "happy score":"67.59","capital":"0"},"geometry":{"type":"Point","coordinates":[-122.7,38.45]}},
 
-{"type":"Feature","properties":{"name":"Sioux Falls SD","country.etc":"SD","pop":" 143534","capital":"0"},"geometry":{"type":"Point","coordinates":[-96.73,43.54]}},
+{"type":"Feature","properties":{"name":"Sioux Falls SD","country.etc":"SD","pop":" 143534", "happy score":"67.43","capital":"0"},"geometry":{"type":"Point","coordinates":[-96.73,43.54]}},
 
-{"type":"Feature","properties":{"name":"Irvine CA","country.etc":"CA","pop":" 199755","capital":"0"},"geometry":{"type":"Point","coordinates":[-117.8,33.66]}},
+{"type":"Feature","properties":{"name":"Irvine CA","country.etc":"CA","pop":" 199755","happy score":"67.27","capital":"0"},"geometry":{"type":"Point","coordinates":[-117.8,33.66]}},
 
-{"type":"Feature","properties":{"name":"San Francisco CA","country.etc":"CA","pop":" 723724","capital":"0"},"geometry":{"type":"Point","coordinates":[-122.45,37.77]}},
+{"type":"Feature","properties":{"name":"San Francisco CA","country.etc":"CA","pop":" 723724", "happy score":"67.11,"capital":"0"},"geometry":{"type":"Point","coordinates":[-122.45,37.77]}},
 
 14.
-{"type":"Feature","properties":{"name":"Pearl City HI","country.etc":"Hi","pop":" 45605","capital":"0"},"geometry":{"type":"Point","coordinates":[21.398204,-157.9683955]}},
+{"type":"Feature","properties":{"name":"Pearl City HI","country.etc":"Hi","pop":" 45605","happy score":"66.58","capital":"0"},"geometry":{"type":"Point","coordinates":[21.398204,-157.9683955]}},
 
 15.
-{"type":"Feature","properties":{"name":"Burlington VT","country.etc":"VT","pop":"  42525","capital":"0"},"geometry":{"type":"Point","coordinates":[44.475949,-73.212481]}},
+{"type":"Feature","properties":{"name":"Burlington VT","country.etc":"VT","pop":"  42525", "happy score":"66.19","capital":"0"},"geometry":{"type":"Point","coordinates":[44.475949,-73.212481]}},
 
 16.
-{"type":"Feature","properties":{"name":"Minneapolis MN","country.etc":"MN","pop":" 364726","capital":"0"},"geometry":{"type":"Point","coordinates":[-93.27,44.96]}},
+{"type":"Feature","properties":{"name":"Minneapolis MN","country.etc":"MN","pop":" 364726", "happy score":"65.98","capital":"0"},"geometry":{"type":"Point","coordinates":[-93.27,44.96]}},
 
 
 17.
-{"type":"Feature","properties":{"name":"Plano TX","country.etc":"TX","pop":" 260415","capital":"0"},"geometry":{"type":"Point","coordinates":[-96.75,33.05]}},
+{"type":"Feature","properties":{"name":"Plano TX","country.etc":"TX","pop":" 260415","happy score":"65.87","capital":"0"},"geometry":{"type":"Point","coordinates":[-96.75,33.05]}},
 
 
 18.
-{"type":"Feature","properties":{"name":"Charleston SC","country.etc":"SC","pop":" 106372","capital":"0"},"geometry":{"type":"Point","coordinates":[-79.99,32.79]}},
+{"type":"Feature","properties":{"name":"Charleston SC","country.etc":"SC","pop":" 106372", "happy score":"65.1","capital":"0"},"geometry":{"type":"Point","coordinates":[-79.99,32.79]}},
 
 
 19.
-{"type":"Feature","properties":{"name":"Rapid City SD","country.etc":"SD","pop":"  62302","capital":"0"},"geometry":{"type":"Point","coordinates":[-103.23,44.08]}},
+{"type":"Feature","properties":{"name":"Rapid City SD","country.etc":"SD","pop":"  62302", "happy score":"65","capital":"0"},"geometry":{"type":"Point","coordinates":[-103.23,44.08]}},
 
 
 20.
-{"type":"Feature","properties":{"name":"Seattle WA","country.etc":"WA","pop":" 570430","capital":"0"},"geometry":{"type":"Point","coordinates":[-122.35,47.62]}},
+{"type":"Feature","properties":{"name":"Seattle WA","country.etc":"WA","pop":" 570430","happy score":"64.74","capital":"0"},"geometry":{"type":"Point","coordinates":[-122.35,47.62]}},
 
 21.
 {"type":"Feature","properties":{"name":"Boise ID","country.etc":"ID","pop":" 193628","capital":"2"},"geometry":{"type":"Point","coordinates":[-116.23,43.61]}},
