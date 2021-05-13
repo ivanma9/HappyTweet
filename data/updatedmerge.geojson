@@ -72,7 +72,7 @@
 
 {"type":"Feature","properties":{"name":"Des Moines IA","country.etc":"IA","pop":" 192050", "happy score":62.33,"capital":"2"},"geometry":{"type":"Point","coordinates":[-93.62,41.58]}},
 
-{"type":"Feature","properties":{"name":"Gilbert AZ","country.etc":"AZ","pop":"243254" "happy score":62.09,"capital":"0"},"geometry":{"type":"Point","coordinates":[-111.76,33.33]}},
+{"type":"Feature","properties":{"name":"Gilbert AZ","country.etc":"AZ","pop":"243254", "happy score":62.09,"capital":"0"},"geometry":{"type":"Point","coordinates":[-111.76,33.33]}},
 
 {"type":"Feature","properties":{"name":"Oakland CA","country.etc":"CA","pop":" 393632", "happy score":61.38,"capital":"0"},"geometry":{"type":"Point","coordinates":[-122.22,37.77]}},
 
@@ -216,7 +216,7 @@
 
 {"type":"Feature","properties":{"name":"Jersey City NJ","country.etc":"NJ","pop":" 237125", "happy score":52.88,"capital":"0"},"geometry":{"type":"Point","coordinates":[-74.06,40.71]}},
 
-{"type":"Feature","properties":{"name":"Saint Petersburg FL","country.etc":"FL","pop":" 245804", "happy score":52.57,"capital":"0"},"geometry":{"type":"Point","coordinates":[-82.64,27.76]}
+{"type":"Feature","properties":{"name":"Saint Petersburg FL","country.etc":"FL","pop":" 245804", "happy score":52.57,"capital":"0"},"geometry":{"type":"Point","coordinates":[-82.64,27.76]}},
 
 {"type":"Feature","properties":{"name":"Columbus OH","country.etc":"OH","pop":" 741677", "happy score":52.48,"capital":"2"},"geometry":{"type":"Point","coordinates":[-82.99,39.99]}},
 
@@ -363,6 +363,10 @@
 {"type":"Feature","properties":{"name":"Cleveland OH","country.etc":"OH","pop":" 443949", "happy score":37.48,"capital":"0"},"geometry":{"type":"Point","coordinates":[-81.68,41.48]}},
 
 {"type":"Feature","properties":{"name":"Detroit MI","country.etc":"MI","pop":" 871789", "happy score":34.29,"capital":"0"},"geometry":{"type":"Point","coordinates":[-83.1,42.38]}},
+
+
+]
+}
 
 
 
