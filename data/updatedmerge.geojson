@@ -201,7 +201,7 @@
 
 {"type":"Feature","properties":{"name":"Salem OR","country.etc":"OR","pop":" 148942", "happy score":"53.95","capital":"2"},"geometry":{"type":"Point","coordinates":[-123.02,44.92]}},
 
-"type":"Feature","properties":{"name":"Las Cruces NM","country.etc":"NM","pop":" 81473", "happy score":"53.72","capital":"0"},"geometry":{"type":"Point","coordinates":[-106.76,32.34]}},
+{"type":"Feature","properties":{"name":"Las Cruces NM","country.etc":"NM","pop":" 81473", "happy score":"53.72","capital":"0"},"geometry":{"type":"Point","coordinates":[-106.76,32.34]}},
 
 {"type":"Feature","properties":{"name":"Arlington TX","country.etc":"TX","pop":" 374729", "happy score":"53.58","capital":"0"},"geometry":{"type":"Point","coordinates":[-97.13,32.69]}},
 
