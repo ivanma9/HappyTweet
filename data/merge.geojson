@@ -158,11 +158,12 @@
 52.
 {"type":"Feature","properties":{"name":"Peoria AZ","country.etc":"AZ","pop":" 146634","capital":"0"},"geometry":{"type":"Point","coordinates":[-112.24,33.69]}},
 
-53.
-{"type":"Feature","properties":{"name":"Abilene TX","country.etc":"TX","pop":" 113888","capital":"0"},"geometry":{"type":"Point","coordinates":[-99.74,32.45]}},
+
 
 54.
 {"type":"Feature","properties":{"name":"Port Saint Lucie FL","country.etc":"FL","pop":" 126377","capital":"0"},"geometry":{"type":"Point","coordinates":[-80.35,27.28]}},
+
+{"type":"Feature","properties":{"name":"Santa Clarita CA","country.etc":"CA","pop":" 172730","capital":"0"},"geometry":{"type":"Point","coordinates":[-118.51,34.41]}},
 
 55.
 {"type":"Feature","properties":{"name":"Tempe AZ","country.etc":"AZ","pop":" 158313","capital":"0"},"geometry":{"type":"Point","coordinates":[-111.93,33.39]}},
