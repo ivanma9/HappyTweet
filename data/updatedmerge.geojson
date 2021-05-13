@@ -64,7 +64,7 @@
 
 {"type":"Feature","properties":{"name":"Raleigh NC","country.etc":"NC","pop":" 350822", "happy score":62.97,"capital":"2"},"geometry":{"type":"Point","coordinates":[-78.66,35.82]}},
 
-{"type":"Feature","properties":{"name":"Huntington Beach CA","country.etc":"CA","pop":" 197124" "happy score":62.95,"capital":"0"},"geometry":{"type":"Point","coordinates":[-118.01,33.69]}},
+{"type":"Feature","properties":{"name":"Huntington Beach CA","country.etc":"CA","pop":" 197124" ,"happy score":62.95,"capital":"0"},"geometry":{"type":"Point","coordinates":[-118.01,33.69]}},
 
 {"type":"Feature","properties":{"name":"Aurora CO","country.etc":"CO","pop":" 304641", "happy score":62.56,"capital":"0"},"geometry":{"type":"Point","coordinates":[-104.73,39.71]}},
 
