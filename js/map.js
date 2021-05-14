@@ -123,12 +123,7 @@ function mapCSVTweet(data) {
 	// loop through each entry
 	sliced1000.forEach(function (item, index) {
 		// console.log(item);
-		let marker = L.circleMarker([item.lat, item.lon], circleOptions).on(
-			"mouseover",
-			function () {
-				this.bindPopup(`${label} <br>`).openPopup();
-			}
-		);
+		let marker = L.circleMarker([item.lat, item.lon], circleOptions);
 
 		// add marker to featuregroup
 		markers.addLayer(marker);
@@ -148,6 +143,8 @@ function mapCSVTweet(data) {
 
 function panToImage(index) {
 	map.setZoom(17);
+		console.log(markers.getBounds());
+
 	map.panTo(markers.getLayers()[index]._latlng);
 }
 
@@ -160,7 +157,7 @@ function getGeoJSON() {
 		geojson_data = data;
 
 		// call the map function
-		mapGeoJSON("happy score", 7, "YlOrRd", "quantile");
+		mapGeoJSON("happy score", 7, "RdYlGn", "quantile");
 	});
 }
 function mapGeoJSON(field, num_classes, color, scheme) {
@@ -189,7 +186,8 @@ function mapGeoJSON(field, num_classes, color, scheme) {
 
 	// create the layer and add to map
 	geojson_layer = L.geoJson(geojson_data, {
-		pointToLayer: getStyle, //call a function to style each feature
+		pointToLayer: function (feature, latlng) {
+        return L.circleMarker(latlng, getStyle(feature))},
 		onEachFeature: onEachFeature, // actions on each feature
 	}).addTo(map);
 
@@ -203,32 +201,31 @@ function mapGeoJSON(field, num_classes, color, scheme) {
 
 function getStyle(feature) {
 	return {
-		stroke: true,
-		color: "white",
+		color: brew.getColorInRange(feature.properties[fieldtomap]),
+		radius: 10,
 		weight: 1,
-		fill: true,
-		fillColor: getColor(feature.properties[fieldtomap]), //brew.getColorInRange(feature.properties[fieldtomap]),
-		fillOpacity: 0.8,
+		fillColor: brew.getColorInRange(feature.properties[fieldtomap]),
+		fillOpacity: 0.9,
 	};
 }
 
 // return the color for each feature
 function getColor(d) {
 	return d > 70
-		? "#800026"
+		? "#096F00"
 		: d > 60
-		? "#BD0026"
+		? "#75BD00"
 		: d > 50
-		? "#E31A1C"
+		? "#E4CC19"
 		: d > 40
-		? "#FC4E2A"
+		? "#FDA63C"
 		: d > 30
-		? "#FD8D3C"
+		? "#FF7E28"
 		: d > 20
-		? "#FEB24C"
+		? "#FF3628"
 		: d > 10
-		? "#FED976"
-		: "#FFEDA0";
+		? "#981608"
+		: "#610202";
 }
 
 function createLegend() {
@@ -236,16 +233,14 @@ function createLegend() {
 		var div = L.DomUtil.create("div", "info legend"),
 			breaks = brew.getBreaks(),
 			labels = [],
-			from,
-			to;
-		console.log(breaks);
+			from, to;
 		for (var i = 0; i < breaks.length; i++) {
 			from = breaks[i];
 			to = breaks[i + 1];
 			if (to) {
 				labels.push(
 					'<i style="background:' +
-						getColor(to) +
+						brew.getColorInRange(to) +
 						'"></i> ' +
 						from.toFixed(2) +
 						" &ndash; " +
@@ -253,8 +248,7 @@ function createLegend() {
 				);
 			}
 		}
-
-		div.innerHTML = labels.join("<br>");
+		div.innerHTML = `<h3>${fieldtomap} legend </h3>` + labels.join("<br>");
 		return div;
 	};
 
@@ -277,7 +271,7 @@ function highlightFeature(e) {
 	// style to use on mouse over
 	layer.setStyle({
 		weight: 2,
-		color: "#666",
+		color: "#40AF21",
 		fillOpacity: 0.7,
 	});
 
@@ -296,7 +290,17 @@ function resetHighlight(e) {
 
 // on mouse click on a feature, zoom in to it
 function zoomToFeature(e) {
-	map.fitBounds(e.target.getBounds());
+	console.log(e.target.feature.geometry.coordinates[0] - 1);
+	var southWest = new L.LatLng(
+			e.target.feature.geometry.coordinates[1] - 0.1,
+			e.target.feature.geometry.coordinates[0] - 0.1
+		),
+		northEast = new L.LatLng(
+			e.target.feature.geometry.coordinates[1] + 0.1,
+			e.target.feature.geometry.coordinates[0] + 0.1
+		),
+		bounds = new L.LatLngBounds(southWest, northEast);
+		map.fitBounds(bounds);
 }
 
 function createInfoPanel() {
@@ -314,7 +318,7 @@ function createInfoPanel() {
 		}
 		// if feature is not highlighted
 		else {
-			this._div.innerHTML = "Hover over a country";
+			this._div.innerHTML = "Hover over a city";
 		}
 	};
 

@@ -10,7 +10,7 @@
 
 {"type":"Feature","properties":{"name":"San Jose CA","country.etc":"CA","pop":" 897883", "happy score":69.47,"capital":"0"},"geometry":{"type":"Point","coordinates":[-121.85,37.3]}},
 
-{"type":"Feature","properties":{"name":"South Burlington VT","country.etc":"VT","pop":"  19162", "happy score":68.73,"capital":"0"},"geometry":{"type":"Point","coordinates":[44.468286,-73.171594]}},
+{"type":"Feature","properties":{"name":"South Burlington VT","country.etc":"VT","pop":"  19162", "happy score":68.73,"capital":"0"},"geometry":{"type":"Point","coordinates":[-73.171594,44.468286]}},
 
 {"type":"Feature","properties":{"name":"Lincoln NE","country.etc":"NE","pop":" 245301", "happy score":68.35,"capital":"2"},"geometry":{"type":"Point","coordinates":[-96.69,40.82]}},
 
@@ -26,9 +26,9 @@
 
 {"type":"Feature","properties":{"name":"San Francisco CA","country.etc":"CA","pop":" 723724", "happy score":67.11,"capital":"0"},"geometry":{"type":"Point","coordinates":[-122.45,37.77]}},
 
-{"type":"Feature","properties":{"name":"Pearl City HI","country.etc":"Hi","pop":" 45605","happy score":66.58,"capital":"0"},"geometry":{"type":"Point","coordinates":[21.398204,-157.9683955]}},
+{"type":"Feature","properties":{"name":"Pearl City HI","country.etc":"Hi","pop":" 45605","happy score":66.58,"capital":"0"},"geometry":{"type":"Point","coordinates":[-157.9683955,21.398204]}},
 
-{"type":"Feature","properties":{"name":"Burlington VT","country.etc":"VT","pop":"  42525", "happy score":66.19,"capital":"0"},"geometry":{"type":"Point","coordinates":[44.475949,-73.212481]}},
+{"type":"Feature","properties":{"name":"Burlington VT","country.etc":"VT","pop":"  42525", "happy score":66.19,"capital":"0"},"geometry":{"type":"Point","coordinates":[-73.212481,44.475949]}},
 
 {"type":"Feature","properties":{"name":"Minneapolis MN","country.etc":"MN","pop":" 364726", "happy score":65.98,"capital":"0"},"geometry":{"type":"Point","coordinates":[-93.27,44.96]}},
 
@@ -174,7 +174,7 @@
 
 {"type":"Feature","properties":{"name":"West Valley City UT","country.etc":"UT","pop":" 113989", "happy score":55.23,"capital":"0"},"geometry":{"type":"Point","coordinates":[-112.01,40.69]}},
 
-{"type":"Feature","properties":{"name":"Lewiston ME","country.etc":"ME","pop":" 36095", "happy score":55.13,"capital":"0"},"geometry":{"type":"Point","coordinates":[44.100658,-70.214978]}},
+{"type":"Feature","properties":{"name":"Lewiston ME","country.etc":"ME","pop":" 36095", "happy score":55.13,"capital":"0"},"geometry":{"type":"Point","coordinates":[-70.214978,44.100658]}},
 
 {"type":"Feature","properties":{"name":"Riverside CA","country.etc":"CA","pop":" 306351", "happy score":54.79,"capital":"0"},"geometry":{"type":"Point","coordinates":[-117.4,33.94]}},
 
