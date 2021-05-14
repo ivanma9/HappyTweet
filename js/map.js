@@ -34,7 +34,7 @@ function makeTwitterMap() {
 
 function makeBothMap() {
 	markers.clearLayers();
-	readCSV(path1, "h");
+	getGeoJSON();
 	readCSV(path2, "t");
 }
 
@@ -112,7 +112,7 @@ function mapCSVTweet(data) {
 		radius: 5,
 		weight: 1,
 		color: "#878787",
-		fillColor: "#D19D1F",
+		fillColor: "#1F8AD1",
 		fillOpacity: 1,
 	};
 
@@ -143,7 +143,7 @@ function mapCSVTweet(data) {
 
 function panToImage(index) {
 	map.setZoom(17);
-		console.log(markers.getBounds());
+	console.log(markers.getBounds());
 
 	map.panTo(markers.getLayers()[index]._latlng);
 }
@@ -187,7 +187,8 @@ function mapGeoJSON(field, num_classes, color, scheme) {
 	// create the layer and add to map
 	geojson_layer = L.geoJson(geojson_data, {
 		pointToLayer: function (feature, latlng) {
-        return L.circleMarker(latlng, getStyle(feature))},
+			return markers.addLayer(L.circleMarker(latlng, getStyle(feature)));
+		},
 		onEachFeature: onEachFeature, // actions on each feature
 	}).addTo(map);
 
@@ -233,7 +234,8 @@ function createLegend() {
 		var div = L.DomUtil.create("div", "info legend"),
 			breaks = brew.getBreaks(),
 			labels = [],
-			from, to;
+			from,
+			to;
 		for (var i = 0; i < breaks.length; i++) {
 			from = breaks[i];
 			to = breaks[i + 1];
@@ -300,7 +302,7 @@ function zoomToFeature(e) {
 			e.target.feature.geometry.coordinates[0] + 0.1
 		),
 		bounds = new L.LatLngBounds(southWest, northEast);
-		map.fitBounds(bounds);
+	map.fitBounds(bounds);
 }
 
 function createInfoPanel() {
