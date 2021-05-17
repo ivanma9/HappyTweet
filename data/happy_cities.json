@@ -1,10 +1,10 @@
 {"type":"FeatureCollection","features":[
     
-{"type":"Feature","properties":{"name":"Fremont CA","country.etc":"CA","pop":" 202574", "happy score":73.66,"capital":"0"},"geometry":{"type":"Point","coordinates":[-122,37.53]}},
+{"type":"Feature","properties":{"name":"Fremont CA","country.etc":"CA","state":"California","pop":" 202574", "happy score":73.66,"capital":"0"},"geometry":{"type":"Point","coordinates":[-122,37.53]}},
 
-{"type":"Feature","properties":{"name":"Bismarck ND","country.etc":"ND","pop":"  56927", "happy score":71.59,"capital":"2"},"geometry":{"type":"Point","coordinates":[-100.77,46.81]}},
+{"type":"Feature","properties":{"name":"Bismarck ND","country.etc":"ND","state":"North Dakota","pop":"  56927", "happy score":71.59,"capital":"2"},"geometry":{"type":"Point","coordinates":[-100.77,46.81]}},
 
-{"type":"Feature","properties":{"name":"Fargo ND","country.etc":"ND","pop":"  92396", "happy score":70.94,"capital":"0"},"geometry":{"type":"Point","coordinates":[-96.82,46.88]}},
+{"type":"Feature","properties":{"name":"Fargo ND","country.etc":"ND","state":"North Dakota", "pop":"  92396", "happy score":70.94,"capital":"0"},"geometry":{"type":"Point","coordinates":[-96.82,46.88]}},
 
 {"type":"Feature","properties":{"name":"Madison WI","country.etc":"WI","pop":" 227642", "happy score":70.14,"capital":"2"},"geometry":{"type":"Point","coordinates":[-89.39,43.08]}},
 

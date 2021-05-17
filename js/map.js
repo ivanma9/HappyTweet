@@ -186,8 +186,9 @@ function mapGeoJSON(field, num_classes, color, scheme) {
 
 	// create the layer and add to map
 	geojson_layer = L.geoJson(geojson_data, {
+		//style: getStyle,
 		pointToLayer: function (feature, latlng) {
-			return markers.addLayer(L.circleMarker(latlng, getStyle(feature)));
+			return L.circleMarker(latlng, getStyle(feature));
 		},
 		onEachFeature: onEachFeature, // actions on each feature
 	}).addTo(map);
@@ -198,6 +199,11 @@ function mapGeoJSON(field, num_classes, color, scheme) {
 
 	// create the infopanel
 	createInfoPanel();
+	let i = 0;
+	map.eachLayer(function () {
+		i += 1;
+	});
+	console.log("Map has", i, "layers.");
 }
 
 function getStyle(feature) {
@@ -259,23 +265,25 @@ function createLegend() {
 
 // Function that defines what will happen on user interactions with each feature
 function onEachFeature(feature, layer) {
-	layer.on({
-		mouseover: highlightFeature,
-		mouseout: resetHighlight,
-		click: zoomToFeature,
-	});
+	console.log(layer.feature);
+	// layer.on({
+	// 	mouseover: highlightFeature,
+	// 	mouseout: resetHighlight,
+	// 	click: zoomToFeature,
+	// });
 }
 
 // on mouse over, highlight the feature
 function highlightFeature(e) {
 	var layer = e.target;
+	console.log(layer);
 
-	// style to use on mouse over
-	layer.setStyle({
-		weight: 2,
-		color: "#40AF21",
-		fillOpacity: 0.7,
-	});
+	// // style to use on mouse over
+	// layer.setStyle({
+	// 	weight: 2,
+	// 	color: "#20211F",
+	// 	fillOpacity: 0.7,
+	// });
 
 	if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
 		layer.bringToFront();
@@ -314,6 +322,7 @@ function createInfoPanel() {
 
 	// method that we will use to update the control based on feature properties passed
 	info_panel.update = function (properties) {
+		console.log(properties);
 		// if feature is highlighted
 		if (properties) {
 			this._div.innerHTML = `<b>${properties.name}</b><br>${fieldtomap}: ${properties[fieldtomap]}`;
