@@ -52,7 +52,7 @@
 
 {"type":"Feature","properties":{"name":"San Diego CA","country.etc":"CA","state":"California","pop":"1299352", "happy score":64.17,"capital":"0"},"geometry":{"type":"Point","coordinates":[-117.14,32.81]}},
 
-{"type":"Feature","properties":{"name":"Austin TX","country.etc":"TX","state":"Texas,""pop":" 683404", "happy score":64.13,"capital":"2"},"geometry":{"type":"Point","coordinates":[-97.75,30.31]}},
+{"type":"Feature","properties":{"name":"Austin TX","country.etc":"TX","state":"Texas","pop":" 683404", "happy score":64.13,"capital":"2"},"geometry":{"type":"Point","coordinates":[-97.75,30.31]}},
 
 {"type":"Feature","properties":{"name":"Overland Park KS","country.etc":"KS","state":"Kansas","pop":" 169520", "happy score":64.09,"capital":"0"},"geometry":{"type":"Point","coordinates":[-94.68,38.91]}},
 
