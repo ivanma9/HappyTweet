@@ -6,7 +6,7 @@ let zl = 3;
 let path = '';
 
 // put this in your global variables
-let geojsonPath = 'data/merge50states.json';
+let geojsonPath = 'data/updatedstates.json';
 let geojson_data;
 let geojson_layer;
 let fieldtomap;
