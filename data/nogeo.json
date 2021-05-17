@@ -206,7 +206,7 @@
 
 {"type":"Feature","properties":{"name":"Modesto CA","country.etc":"CA","state":"California","pop":" 221674", "happy score":53.37,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Dallas TX","country.etc":"TX","state":"Texas","pop":"1216543", "happy score":53.3,"capital":"0"},"geometry":{"type":"Point","coordinates":[-96.77,32.79]}},
+{"type":"Feature","properties":{"name":"Dallas TX","country.etc":"TX","state":"Texas","pop":"1216543", "happy score":53.3,"capital":"0"},
 
 {"type":"Feature","properties":{"name":"Ontario CA","country.etc":"CA","state":"California","pop":" 175805", "happy score":53.27,"capital":"0"},
 
