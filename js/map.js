@@ -95,7 +95,7 @@ function mapCSV(data) {
 				this.bindPopup(`${label} <br>`).openPopup();
 			}
 		);
-		
+
 		// add marker to featuregroup
 		markers.addLayer(marker);
 
@@ -347,12 +347,9 @@ function getScoresStyle(feature) {
 	if (cityData) {
 		const stateScore = cityData["Total Score"];
 
-		const scaledVal = (stateScore - min) / (max - min);
-		const colorHSL = getHeatmapColorFromValue(scaledVal);
-		const colorHex = hslToHex(colorHSL.hue, colorHSL.saturation, colorHSL.luminance);
 
 		return {
-			fillColor: colorHex,
+			fillColor: getColorInRange(stateScore),
 			fillOpacity: 0.2,
 			color: "black",
 			weight: 0.3,
