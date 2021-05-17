@@ -283,12 +283,12 @@ function highlightFeature(e) {
 	var layer = e.target;
 	console.log(layer);
 
-	// // style to use on mouse over
-	// layer.setStyle({
-	// 	weight: 2,
-	// 	color: "#20211F",
-	// 	fillOpacity: 0.7,
-	// });
+	// style to use on mouse over
+	layer.setStyle({
+		weight: 2,
+		color: '#666',
+		fillOpacity: 0.7
+	});
 
 	if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
 		layer.bringToFront();
