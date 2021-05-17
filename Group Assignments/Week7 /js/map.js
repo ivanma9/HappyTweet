@@ -195,3 +195,5 @@ function createInfoPanel(){
 
 	info_panel.addTo(map);
 }
+
+

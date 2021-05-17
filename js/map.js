@@ -11,6 +11,7 @@ let markers = L.featureGroup();
 let geojson_data;
 let geojson_layer;
 let fieldtomap;
+let csvData;
 
 let brew = new classyBrew();
 let legend = L.control({ position: "bottomright" });
@@ -59,6 +60,11 @@ function readCSV(path, type) {
 			// map the data
 			if (type == "h") {
 				mapCSV(data);
+				if (csvData){
+					csvData = data;
+				}
+			}
+				
 			} else if (type == "t") {
 				mapCSVTweet(data);
 			}
@@ -89,7 +95,7 @@ function mapCSV(data) {
 				this.bindPopup(`${label} <br>`).openPopup();
 			}
 		);
-
+		
 		// add marker to featuregroup
 		markers.addLayer(marker);
 
@@ -186,10 +192,10 @@ function mapGeoJSON(field, num_classes, color, scheme) {
 
 	// create the layer and add to map
 	geojson_layer = L.geoJson(geojson_data, {
-		//style: getStyle,
-		pointToLayer: function (feature, latlng) {
-			return L.circleMarker(latlng, getStyle(feature));
-		},
+		style: (feature) => getScoresStyle, 
+		// pointToLayer: function (feature, latlng) {
+		// 	return L.circleMarker(latlng, getStyle(feature));
+		// },
 		onEachFeature: onEachFeature, // actions on each feature
 	}).addTo(map);
 
@@ -259,18 +265,17 @@ function createLegend() {
 		div.innerHTML = `<h3>${fieldtomap} legend </h3>` + labels.join("<br>");
 		return div;
 	};
-
 	legend.addTo(map);
 }
 
 // Function that defines what will happen on user interactions with each feature
 function onEachFeature(feature, layer) {
 	console.log(layer.feature);
-	// layer.on({
-	// 	mouseover: highlightFeature,
-	// 	mouseout: resetHighlight,
-	// 	click: zoomToFeature,
-	// });
+	layer.on({
+		mouseover: highlightFeature,
+		mouseout: resetHighlight,
+		click: zoomToFeature,
+	});
 }
 
 // on mouse over, highlight the feature
@@ -334,6 +339,25 @@ function createInfoPanel() {
 	};
 
 	info_panel.addTo(map);
+}
+
+function getScoresStyle(feature) {
+	const cityData = csvData[csvPathsIndex].data.find((row) => row.City === feature.properties.NAME);
+
+	if (cityData) {
+		const stateScore = cityData["Total Score"];
+
+		const scaledVal = (stateScore - min) / (max - min);
+		const colorHSL = getHeatmapColorFromValue(scaledVal);
+		const colorHex = hslToHex(colorHSL.hue, colorHSL.saturation, colorHSL.luminance);
+
+		return {
+			fillColor: colorHex,
+			fillOpacity: 0.2,
+			color: "black",
+			weight: 0.3,
+		};
+	}
 }
 
 //const provider = new GeoSearch.OpenStreetMapProvider();
