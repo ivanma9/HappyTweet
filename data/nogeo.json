@@ -208,160 +208,160 @@
 
 {"type":"Feature","properties":{"name":"Dallas TX","country.etc":"TX","state":"Texas","pop":"1216543", "happy score":53.3,"capital":"0"},"geometry":{"type":"Point","coordinates":[-96.77,32.79]}},
 
-{"type":"Feature","properties":{"name":"Ontario CA","country.etc":"CA","state":"California","pop":" 175805", "happy score":53.27,"capital":"0"},"geometry":{"type":"Point","coordinates":[-117.61,34.05]}},
+{"type":"Feature","properties":{"name":"Ontario CA","country.etc":"CA","state":"California","pop":" 175805", "happy score":53.27,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Spokane WA","country.etc":"WA","state":"Washington","pop":" 197513", "happy score":53.1,"capital":"0"},"geometry":{"type":"Point","coordinates":[-117.41,47.67]}},
+{"type":"Feature","properties":{"name":"Spokane WA","country.etc":"WA","state":"Washington","pop":" 197513", "happy score":53.1,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Fontana CA","country.etc":"CA","state":"California","pop":" 178257", "happy score":52.96,"capital":"0"},"geometry":{"type":"Point","coordinates":[-117.46,34.1]}},
+{"type":"Feature","properties":{"name":"Fontana CA","country.etc":"CA","state":"California","pop":" 178257", "happy score":52.96,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Jersey City NJ","country.etc":"NJ","state":"New Jersey","pop":" 237125", "happy score":52.88,"capital":"0"},"geometry":{"type":"Point","coordinates":[-74.06,40.71]}},
+{"type":"Feature","properties":{"name":"Jersey City NJ","country.etc":"NJ","state":"New Jersey","pop":" 237125", "happy score":52.88,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Saint Petersburg FL","country.etc":"FL","state":"Florida","pop":" 245804", "happy score":52.57,"capital":"0"},"geometry":{"type":"Point","coordinates":[-82.64,27.76]}},
+{"type":"Feature","properties":{"name":"Saint Petersburg FL","country.etc":"FL","state":"Florida","pop":" 245804", "happy score":52.57,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Columbus OH","country.etc":"OH","state":"Ohio","pop":" 741677", "happy score":52.48,"capital":"2"},"geometry":{"type":"Point","coordinates":[-82.99,39.99]}},
+{"type":"Feature","properties":{"name":"Columbus OH","country.etc":"OH","state":"Ohio","pop":" 741677", "happy score":52.48,"capital":"2"},
 
-{"type":"Feature","properties":{"name":"Jacksonville FL","country.etc":"FL","state":"Florida","pop":" 809874", "happy score":52.41,"capital":"0"},"geometry":{"type":"Point","coordinates":[-81.66,30.33]}},
+{"type":"Feature","properties":{"name":"Jacksonville FL","country.etc":"FL","state":"Florida","pop":" 809874", "happy score":52.41,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Long Beach CA","country.etc":"CA","state":"California","pop":" 486571", "happy score":52.39,"capital":"0"},"geometry":{"type":"Point","coordinates":[-118.16,33.79]}},
+{"type":"Feature","properties":{"name":"Long Beach CA","country.etc":"CA","state":"California","pop":" 486571", "happy score":52.39,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Bridgeport CT","country.etc":"CT","state":"Connecticut","pop":" 138901", "happy score":52.37,"capital":"0"},"geometry":{"type":"Point","coordinates":[-73.2,41.19]}},
+{"type":"Feature","properties":{"name":"Bridgeport CT","country.etc":"CT","state":"Connecticut","pop":" 138901", "happy score":52.37,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Milwaukee WI","country.etc":"WI","state":"Wisconsin","pop":" 575250", "happy score":52.28,"capital":"0"},"geometry":{"type":"Point","coordinates":[-87.97,43.06]}},
+{"type":"Feature","properties":{"name":"Milwaukee WI","country.etc":"WI","state":"Wisconsin","pop":" 575250", "happy score":52.28,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Henderson NV","country.etc":"NV","state":"Nevada","pop":" 255646", "happy score":52.26,"capital":"0"},"geometry":{"type":"Point","coordinates":[-115,36.03]}},
+{"type":"Feature","properties":{"name":"Henderson NV","country.etc":"NV","state":"Nevada","pop":" 255646", "happy score":52.26,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Warwick RI","country.etc":"RI","state":"Rhode Island","pop":"  88443", "happy score":52.07,"capital":"0"},"geometry":{"type":"Point","coordinates":[-71.42,41.7]}},
+{"type":"Feature","properties":{"name":"Warwick RI","country.etc":"RI","state":"Rhode Island","pop":"  88443", "happy score":52.07,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Lubbock TX","country.etc":"TX","state":"Texas","pop":" 213587", "happy score":51.83,"capital":"0"},"geometry":{"type":"Point","coordinates":[-101.88,33.58]}},
+{"type":"Feature","properties":{"name":"Lubbock TX","country.etc":"TX","state":"Texas","pop":" 213587", "happy score":51.83,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Kansas City MO","country.etc":"MO","state":"Missouri","pop":" 441833", "happy score":51.9,"capital":"0"},"geometry":{"type":"Point","coordinates":[-94.55,39.12]}},
+{"type":"Feature","properties":{"name":"Kansas City MO","country.etc":"MO","state":"Missouri","pop":" 441833", "happy score":51.9,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Glendale AZ","country.etc":"AZ","state":"Arizona","pop":" 244734", "happy score":51.71,"capital":"0"},"geometry":{"type":"Point","coordinates":[-112.2,33.58]}},
+{"type":"Feature","properties":{"name":"Glendale AZ","country.etc":"AZ","state":"Arizona","pop":" 244734", "happy score":51.71,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Albuquerque NM","country.etc":"NM","state":"New Mexico","pop":" 494962", "happy score":51.04,"capital":"0"},"geometry":{"type":"Point","coordinates":[-106.62,35.12]}},
+{"type":"Feature","properties":{"name":"Albuquerque NM","country.etc":"NM","state":"New Mexico","pop":" 494962", "happy score":51.04,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Orlando FL","country.etc":"FL","state":"Florida","pop":" 211226", "happy score":50.93,"capital":"0"},"geometry":{"type":"Point","coordinates":[-81.37,28.5]}},
+{"type":"Feature","properties":{"name":"Orlando FL","country.etc":"FL","state":"Florida","pop":" 211226", "happy score":50.93,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"New York NY","country.etc":"NY","state":"New York","pop":"8124427", "happy score":50.91,"capital":"0"},"geometry":{"type":"Point","coordinates":[-73.94,40.67]}},
+{"type":"Feature","properties":{"name":"New York NY","country.etc":"NY","state":"New York","pop":"8124427", "happy score":50.91,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Houston TX","country.etc":"TX","state":"Texas","pop":"2043005", "happy score":50.83,"capital":"0"},"geometry":{"type":"Point","coordinates":[-95.39,29.77]}},
+{"type":"Feature","properties":{"name":"Houston TX","country.etc":"TX","state":"Texas","pop":"2043005", "happy score":50.83,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Rochester NY","country.etc":"NY","state":"New York","pop":" 209587", "happy score":50.52,"capital":"0"},"geometry":{"type":"Point","coordinates":[-77.62,43.17]}},
+{"type":"Feature","properties":{"name":"Rochester NY","country.etc":"NY","state":"New York","pop":" 209587", "happy score":50.52,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Brownsville TX","country.etc":"TX","state":"Texas","pop":" 174135", "happy score":50.21,"capital":"0"},"geometry":{"type":"Point","coordinates":[-97.48,25.93]}},
+{"type":"Feature","properties":{"name":"Brownsville TX","country.etc":"TX","state":"Texas","pop":" 174135", "happy score":50.21,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Phoenix AZ","country.etc":"AZ","state":"Arizona","pop":"1450884", "happy score":50.13,"capital":"2"},"geometry":{"type":"Point","coordinates":[-112.07,33.54]}},
+{"type":"Feature","properties":{"name":"Phoenix AZ","country.etc":"AZ","state":"Arizona","pop":"1450884", "happy score":50.13,"capital":"2"},
 
-{"type":"Feature","properties":{"name":"Winston-Salem NC","country.etc":"NC","state":"North Carolina","pop":" 194826", "happy score":49.92,"capital":"0"},"geometry":{"type":"Point","coordinates":[-80.26,36.1]}},
+{"type":"Feature","properties":{"name":"Winston-Salem NC","country.etc":"NC","state":"North Carolina","pop":" 194826", "happy score":49.92,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"El Paso TX","country.etc":"TX","state":"Texas","pop":" 603545", "happy score":49.92,"capital":"0"},"geometry":{"type":"Point","coordinates":[-106.44,31.85]}},
+{"type":"Feature","properties":{"name":"El Paso TX","country.etc":"TX","state":"Texas","pop":" 603545", "happy score":49.92,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Fort Smith AR","country.etc":"AR","state":"Arkansas","pop":"  82304", "happy score":49.83,"capital":"0"},"geometry":{"type":"Point","coordinates":[-94.38,35.37]}},
+{"type":"Feature","properties":{"name":"Fort Smith AR","country.etc":"AR","state":"Arkansas","pop":"  82304", "happy score":49.83,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Miami FL","country.etc":"FL","state":"Florida","pop":" 386740", "happy score":49.82,"capital":"0"},"geometry":{"type":"Point","coordinates":[-80.21,25.78]}},
+{"type":"Feature","properties":{"name":"Miami FL","country.etc":"FL","state":"Florida","pop":" 386740", "happy score":49.82,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Richmond VA","country.etc":"VA","state":"Virginia","pop":" 189498", "happy score":49.68,"capital":"2"},"geometry":{"type":"Point","coordinates":[-77.47,37.53]}},
+{"type":"Feature","properties":{"name":"Richmond VA","country.etc":"VA","state":"Virginia","pop":" 189498", "happy score":49.68,"capital":"2"},
 
-{"type":"Feature","properties":{"name":"Greensboro NC","country.etc":"NC","state":"North Carolina","pop":" 233342", "happy score":49.51,"capital":"0"},"geometry":{"type":"Point","coordinates":[-79.83,36.08]}},
+{"type":"Feature","properties":{"name":"Greensboro NC","country.etc":"NC","state":"North Carolina","pop":" 233342", "happy score":49.51,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Jackson MS","country.etc":"MS","state":"Mississippi","pop":" 175085", "happy score":49.41,"capital":"2"},"geometry":{"type":"Point","coordinates":[-90.21,32.32]}},
+{"type":"Feature","properties":{"name":"Jackson MS","country.etc":"MS","state":"Mississippi","pop":" 175085", "happy score":49.41,"capital":"2"},
 
-{"type":"Feature","properties":{"name":"Norfolk VA","country.etc":"VA","state":"Virginia","pop":" 248182", "happy score":49.35,"capital":"0"},"geometry":{"type":"Point","coordinates":[-76.24,36.92]}},
+{"type":"Feature","properties":{"name":"Norfolk VA","country.etc":"VA","state":"Virginia","pop":" 248182", "happy score":49.35,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Buffalo NY","country.etc":"NY","state":"New York","pop":" 276762", "happy score":49.18,"capital":"0"},"geometry":{"type":"Point","coordinates":[-78.86,42.89]}},
+{"type":"Feature","properties":{"name":"Buffalo NY","country.etc":"NY","state":"New York","pop":" 276762", "happy score":49.18,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Indianapolis IN","country.etc":"IN","state":"Indiana","pop":" 771725", "happy score":49.14,"capital":"2"},"geometry":{"type":"Point","coordinates":[-86.15,39.78]}},
+{"type":"Feature","properties":{"name":"Indianapolis IN","country.etc":"IN","state":"Indiana","pop":" 771725", "happy score":49.14,"capital":"2"},
 
-{"type":"Feature","properties":{"name":"Corpus Christi TX","country.etc":"TX","state":"Texas","pop":" 280808", "happy score":49.11,"capital":"0"},"geometry":{"type":"Point","coordinates":[-97.29,27.71]}},
+{"type":"Feature","properties":{"name":"Corpus Christi TX","country.etc":"TX","state":"Texas","pop":" 280808", "happy score":49.11,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Worcester MA","country.etc":"MA","state":"Massachusetts","pop":" 177973", "happy score":48.92,"capital":"0"},"geometry":{"type":"Point","coordinates":[-71.81,42.27]}},
+{"type":"Feature","properties":{"name":"Worcester MA","country.etc":"MA","state":"Massachusetts","pop":" 177973", "happy score":48.92,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Chattanooga TN","country.etc":"TN","state":"Tennessee","pop":" 153617", "happy score":48.84,"capital":"0"},"geometry":{"type":"Point","coordinates":[-85.26,35.07]}},
+{"type":"Feature","properties":{"name":"Chattanooga TN","country.etc":"TN","state":"Tennessee","pop":" 153617", "happy score":48.84,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Knoxville TN","country.etc":"TN","state":"Tennessee","pop":" 172000", "happy score":48.66,"capital":"0"},"geometry":{"type":"Point","coordinates":[-83.95,35.97]}},
+{"type":"Feature","properties":{"name":"Knoxville TN","country.etc":"TN","state":"Tennessee","pop":" 172000", "happy score":48.66,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"San Antonio TX","country.etc":"TX","state":"Texas","pop":"1278171", "happy score":48.61,"capital":"0"},"geometry":{"type":"Point","coordinates":[-98.51,29.46]}},
+{"type":"Feature","properties":{"name":"San Antonio TX","country.etc":"TX","state":"Texas","pop":"1278171", "happy score":48.61,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Tucson AZ","country.etc":"AZ","state":"Arizona","pop":" 525268", "happy score":48.37,"capital":"0"},"geometry":{"type":"Point","coordinates":[-110.89,32.2]}},
+{"type":"Feature","properties":{"name":"Tucson AZ","country.etc":"AZ","state":"Arizona","pop":" 525268", "happy score":48.37,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Oklahoma City OK","country.etc":"OK","state":"Oklahoma","pop":" 538141", "happy score":48.36,"capital":"2"},"geometry":{"type":"Point","coordinates":[-97.51,35.47]}},
+{"type":"Feature","properties":{"name":"Oklahoma City OK","country.etc":"OK","state":"Oklahoma","pop":" 538141", "happy score":48.36,"capital":"2"},
 
-{"type":"Feature","properties":{"name":"New Haven CT","country.etc":"CT","state":"Connecticut","pop":" 125030", "happy score":48.16,"capital":"0"},"geometry":{"type":"Point","coordinates":[-72.92,41.31]}},
+{"type":"Feature","properties":{"name":"New Haven CT","country.etc":"CT","state":"Connecticut","pop":" 125030", "happy score":48.16,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Providence RI","country.etc":"RI","state":"Rhode Island","pop":" 178295", "happy score":47.95,"capital":"2"},"geometry":{"type":"Point","coordinates":[-71.42,41.82]}},
+{"type":"Feature","properties":{"name":"Providence RI","country.etc":"RI","state":"Rhode Island","pop":" 178295", "happy score":47.95,"capital":"2"},
 
-{"type":"Feature","properties":{"name":"Wichita KS","country.etc":"KS","state":"Kansas","pop":" 356051", "happy score":47.87,"capital":"0"},"geometry":{"type":"Point","coordinates":[-97.34,37.69]}},
+{"type":"Feature","properties":{"name":"Wichita KS","country.etc":"KS","state":"Kansas","pop":" 356051", "happy score":47.87,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Little Rock AR","country.etc":"AR","state":"Arkansas","pop":" 184323", "happy score":57.56,"capital":"2"},"geometry":{"type":"Point","coordinates":[-92.35,34.72]}},
+{"type":"Feature","properties":{"name":"Little Rock AR","country.etc":"AR","state":"Arkansas","pop":" 184323", "happy score":57.56,"capital":"2"},
 
-{"type":"Feature","properties":{"name":"Shreveport LA","country.etc":"LA","state":"Louisiana","pop":" 196228", "happy score":57.55,"capital":"0"},"geometry":{"type":"Point","coordinates":[-93.8,32.47]}},
+{"type":"Feature","properties":{"name":"Shreveport LA","country.etc":"LA","state":"Louisiana","pop":" 196228", "happy score":57.55,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Cincinnati OH","country.etc":"OH","state":"Ohio","pop":" 301561","happy score":47.43,"capital":"0"},"geometry":{"type":"Point","coordinates":[-84.51,39.14]}},
+{"type":"Feature","properties":{"name":"Cincinnati OH","country.etc":"OH","state":"Ohio","pop":" 301561","happy score":47.43,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Stockton CA","country.etc":"CA","state":"California","pop":" 299188", "happy score":47.13,"capital":"0"},"geometry":{"type":"Point","coordinates":[-121.31,37.97]}},
+{"type":"Feature","properties":{"name":"Stockton CA","country.etc":"CA","state":"California","pop":" 299188", "happy score":47.13,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Las Vegas NV","country.etc":"NV","state":"Nevada","pop":" 553807", "happy score":47.04,"capital":"0"},"geometry":{"type":"Point","coordinates":[-115.22,36.21]}},
+{"type":"Feature","properties":{"name":"Las Vegas NV","country.etc":"NV","state":"Nevada","pop":" 553807", "happy score":47.04,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"New Orleans LA","country.etc":"LA","state":"Louisiana","pop":" 454207", "happy score":47,"capital":"0"},"geometry":{"type":"Point","coordinates":[-89.93,30.07]}},
+{"type":"Feature","properties":{"name":"New Orleans LA","country.etc":"LA","state":"Louisiana","pop":" 454207", "happy score":47,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Louisville KY","country.etc":"KY","state":"Kentucky","pop":" 241072", "happy score":46.55,"capital":"0"},"geometry":{"type":"Point","coordinates":[-85.74,38.22]}},
+{"type":"Feature","properties":{"name":"Louisville KY","country.etc":"KY","state":"Kentucky","pop":" 241072", "happy score":46.55,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Akron OH","country.etc":"OH","state":"Ohio","pop":" 206634", "happy score":46.48,"capital":"0"},"geometry":{"type":"Point","coordinates":[-81.52,41.08]}},
+{"type":"Feature","properties":{"name":"Akron OH","country.etc":"OH","state":"Ohio","pop":" 206634", "happy score":46.48,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Bakersfield CA","country.etc":"CA","state":"California","pop":" 301775", "happy score":46.44,"capital":"0"},"geometry":{"type":"Point","coordinates":[-119,35.36]}},
+{"type":"Feature","properties":{"name":"Bakersfield CA","country.etc":"CA","state":"California","pop":" 301775", "happy score":46.44,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Fresno CA","country.etc":"CA","state":"California","pop":" 472517", "happy score":46.43,"capital":"0"},"geometry":{"type":"Point","coordinates":[-119.79,36.78]}},
+{"type":"Feature","properties":{"name":"Fresno CA","country.etc":"CA","state":"California","pop":" 472517", "happy score":46.43,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Baltimore MD","country.etc":"MD","state":"Maryland","pop":" 602658", "happy score":46.23,"capital":"0"},"geometry":{"type":"Point","coordinates":[-76.61,39.3]}},
+{"type":"Feature","properties":{"name":"Baltimore MD","country.etc":"MD","state":"Maryland","pop":" 602658", "happy score":46.23,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Hialeah FL","country.etc":"FL","state":"Florida","pop":" 224644", "happy score":46.02,"capital":"0"},"geometry":{"type":"Point","coordinates":[-80.3,25.86]}},
+{"type":"Feature","properties":{"name":"Hialeah FL","country.etc":"FL","state":"Florida","pop":" 224644", "happy score":46.02,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"North Las Vegas NV","country.etc":"NV","state":"Nevada","pop":" 177751", "happy score":45.92,"capital":"0"},"geometry":{"type":"Point","coordinates":[-115.14,36.27]}},
+{"type":"Feature","properties":{"name":"North Las Vegas NV","country.etc":"NV","state":"Nevada","pop":" 177751", "happy score":45.92,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Philadelphia PA","country.etc":"PA","state":"Pennsylvania","pop":"1439814", "happy score":45.8,"capital":"0"},"geometry":{"type":"Point","coordinates":[-75.13,40.01]}},
+{"type":"Feature","properties":{"name":"Philadelphia PA","country.etc":"PA","state":"Pennsylvania","pop":"1439814", "happy score":45.8,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Laredo TX","country.etc":"TX","state":"Texas","pop":" 218041", "happy score":45.72,"capital":"0"},"geometry":{"type":"Point","coordinates":[-99.49,27.53]}},
+{"type":"Feature","properties":{"name":"Laredo TX","country.etc":"TX","state":"Texas","pop":" 218041", "happy score":45.72,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Baton Rouge LA","country.etc":"LA","state":"Louisiana","pop":" 222217", "happy score":45.54,"capital":"2"},"geometry":{"type":"Point","coordinates":[-91.13,30.45]}},
+{"type":"Feature","properties":{"name":"Baton Rouge LA","country.etc":"LA","state":"Louisiana","pop":" 222217", "happy score":45.54,"capital":"2"},
 
-{"type":"Feature","properties":{"name":"Newport News VA","country.etc":"VA","state":"Virginia","pop":" 183941", "happy score":45.26,"capital":"0"},"geometry":{"type":"Point","coordinates":[-76.51,37.08]}},
+{"type":"Feature","properties":{"name":"Newport News VA","country.etc":"VA","state":"Virginia","pop":" 183941", "happy score":45.26,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Charleston WV","country.etc":"WV","state":"West Virginia","pop":"  49804", "happy score":45.15,"capital":"2"},"geometry":{"type":"Point","coordinates":[-81.63,38.35]}},
+{"type":"Feature","properties":{"name":"Charleston WV","country.etc":"WV","state":"West Virginia","pop":"  49804", "happy score":45.15,"capital":"2"},
 
-{"type":"Feature","properties":{"name":"San Bernardino CA","country.etc":"CA","state":"California","pop":" 205743", "happy score":44.66,"capital":"0"},"geometry":{"type":"Point","coordinates":[-117.29,34.14]}},
+{"type":"Feature","properties":{"name":"San Bernardino CA","country.etc":"CA","state":"California","pop":" 205743", "happy score":44.66,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Saint Louis MO","country.etc":"MO","state":"Missouri","pop":" 315546", "happy score":44.3,"capital":"0"},"geometry":{"type":"Point","coordinates":[-90.24,38.64]}},
+{"type":"Feature","properties":{"name":"Saint Louis MO","country.etc":"MO","state":"Missouri","pop":" 315546", "happy score":44.3,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Newark NJ","country.etc":"NJ","state":"New Jersey", "pop":" 281378", "happy score":43.97,"capital":"0"},"geometry":{"type":"Point","coordinates":[-74.17,40.72]}},
+{"type":"Feature","properties":{"name":"Newark NJ","country.etc":"NJ","state":"New Jersey", "pop":" 281378", "happy score":43.97,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Wilmington DE","country.etc":"DE","state":"Delaware","pop":"  71065", "happy score":43.9,"capital":"0"},"geometry":{"type":"Point","coordinates":[-75.53,39.74]}},
+{"type":"Feature","properties":{"name":"Wilmington DE","country.etc":"DE","state":"Delaware","pop":"  71065", "happy score":43.9,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Birmingham AL","country.etc":"AL","state":"Alabama","pop":" 229300", "happy score":43.87,"capital":"0"},"geometry":{"type":"Point","coordinates":[-86.8,33.53]}},
+{"type":"Feature","properties":{"name":"Birmingham AL","country.etc":"AL","state":"Alabama","pop":" 229300", "happy score":43.87,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Gulfport MS","country.etc":"MS","state":"Mississippi","pop":"  71400", "happy score":43.8,"capital":"0"},"geometry":{"type":"Point","coordinates":[-89.07,30.39]}},
+{"type":"Feature","properties":{"name":"Gulfport MS","country.etc":"MS","state":"Mississippi","pop":"  71400", "happy score":43.8,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Columbus GA","country.etc":"GA","state":"Georgia","pop":" 184900", "happy score":43.72,"capital":"0"},"geometry":{"type":"Point","coordinates":[-84.87,32.51]}},
+{"type":"Feature","properties":{"name":"Columbus GA","country.etc":"GA","state":"Georgia","pop":" 184900", "happy score":43.72,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Tulsa OK","country.etc":"OK","state":"Oklahoma","pop":" 379833", "happy score":43.32,"capital":"0"},"geometry":{"type":"Point","coordinates":[-95.92,36.13]}},
+{"type":"Feature","properties":{"name":"Tulsa OK","country.etc":"OK","state":"Oklahoma","pop":" 379833", "happy score":43.32,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Mobile AL","country.etc":"AL","state":"Alabama","pop":" 188467", "happy score":43.24,"capital":"0"},"geometry":{"type":"Point","coordinates":[-88.09,30.68]}},
+{"type":"Feature","properties":{"name":"Mobile AL","country.etc":"AL","state":"Alabama","pop":" 188467", "happy score":43.24,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Fayetteville NC","country.etc":"NC","state":"North Carolina","pop":" 124919", "happy score":42.55,"capital":"0"},"geometry":{"type":"Point","coordinates":[-78.9,35.07]}},
+{"type":"Feature","properties":{"name":"Fayetteville NC","country.etc":"NC","state":"North Carolina","pop":" 124919", "happy score":42.55,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Huntington WV","country.etc":"WV","state":"West Virginia","pop":"  47905", "happy score":42.5,"capital":"0"},"geometry":{"type":"Point","coordinates":[-82.43,38.41]}},
+{"type":"Feature","properties":{"name":"Huntington WV","country.etc":"WV","state":"West Virginia","pop":"  47905", "happy score":42.5,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Dover DE","country.etc":"DE","state":"Delaware","pop":"  34288", "happy score":42.4,"capital":"2"},"geometry":{"type":"Point","coordinates":[-75.53,39.16]}},
+{"type":"Feature","properties":{"name":"Dover DE","country.etc":"DE","state":"Delaware","pop":"  34288", "happy score":42.4,"capital":"2"},
 
-{"type":"Feature","properties":{"name":"Montgomery AL","country.etc":"AL","state":"Alabama","pop":" 197653", "happy score":42.37,"capital":"2"},"geometry":{"type":"Point","coordinates":[-86.28,32.35]}},
+{"type":"Feature","properties":{"name":"Montgomery AL","country.etc":"AL","state":"Alabama","pop":" 197653", "happy score":42.37,"capital":"2"},
 
-{"type":"Feature","properties":{"name":"Toledo OH","country.etc":"OH","state":"Oklahoma","pop":" 305292", "happy score":42.18,"capital":"0"},"geometry":{"type":"Point","coordinates":[-83.58,41.66]}},
+{"type":"Feature","properties":{"name":"Toledo OH","country.etc":"OH","state":"Oklahoma","pop":" 305292", "happy score":42.18,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Memphis TN","country.etc":"TN","state":"Tennessee","pop":" 639736", "happy score":40.16,"capital":"0"},"geometry":{"type":"Point","coordinates":[-90.01,35.11]}},
+{"type":"Feature","properties":{"name":"Memphis TN","country.etc":"TN","state":"Tennessee","pop":" 639736", "happy score":40.16,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Augusta-Richmond GA","country.etc":"GA","state":"Georgia","pop":" 192376", "happy score":38.76,"capital":"0"},"geometry":{"type":"Point","coordinates":[-81.99,33.46]}},
+{"type":"Feature","properties":{"name":"Augusta-Richmond GA","country.etc":"GA","state":"Georgia","pop":" 192376", "happy score":38.76,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Cleveland OH","country.etc":"OH","state":"Ohio","pop":" 443949", "happy score":37.48,"capital":"0"},"geometry":{"type":"Point","coordinates":[-81.68,41.48]}},
+{"type":"Feature","properties":{"name":"Cleveland OH","country.etc":"OH","state":"Ohio","pop":" 443949", "happy score":37.48,"capital":"0"},
 
-{"type":"Feature","properties":{"name":"Detroit MI","country.etc":"MI","state":"Michigan","pop":" 871789", "happy score":34.29,"capital":"0"},"geometry":{"type":"Point","coordinates":[-83.1,42.38]}}
+{"type":"Feature","properties":{"name":"Detroit MI","country.etc":"MI","state":"Michigan","pop":" 871789", "happy score":34.29,"capital":"0"},
 ]
 }
