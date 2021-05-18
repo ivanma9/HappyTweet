@@ -11,6 +11,7 @@ let markers = L.featureGroup();
 let geojson_data;
 let geojson_layer;
 let fieldtomap;
+
 let csvData;
 
 let brew = new classyBrew();
