@@ -28,7 +28,6 @@ body {
 }
 
 .sidebar {
-	color: white;
 	grid-area: sidebar;
 	padding:10px;
 	background-color: #5a94d9;
@@ -74,7 +73,7 @@ body {
 }
 
 .map-item {
-    border: 1px solid #333;
+    border: 1px solid rgb(230, 230, 230);
     padding: 10px;
-    background-color: #111;
+    background-color: rgb(225, 225, 225);
 }
