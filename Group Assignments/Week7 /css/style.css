@@ -9,6 +9,7 @@ body,html {
 }
 
 body {
+	font-family: "Helvetica";
 	display: grid;
 	grid-template-rows: 60px 1fr 40px;
 	grid-template-columns: 300px 1fr;
@@ -21,7 +22,7 @@ body {
 .header {
 	grid-area: header;
 	padding:10px;
-	background-color: #333;
+	background-color: #5a94d9;
 	color: white;
 	font-size: 2em;
 }
@@ -30,7 +31,7 @@ body {
 	color: white;
 	grid-area: sidebar;
 	padding:10px;
-	background-color: #555;
+	background-color: #5a94d9;
 	overflow: auto;
 }
 
@@ -47,7 +48,7 @@ body {
 /* legend styles */
 .info {
 	padding: 6px 8px;
-	font: 14px/16px Arial, Helvetica, sans-serif;
+	font: 14px/16px Helvetica, sans-serif;
 	background: white;
 	background: rgba(255,255,255,0.8);
 	box-shadow: 0 0 15px rgba(0,0,0,0.2);

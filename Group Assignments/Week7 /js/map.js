@@ -40,7 +40,7 @@ function getGeoJSON(){
 		geojson_data = data;
 
 		// call the map function
-		mapGeoJSON("happy score", 7, "RdYlGn", "quantile");
+		mapGeoJSON("happy score", 10, "RdYlGn", "quantile");
 	})
 }
 function mapGeoJSON(field,num_classes,color,scheme){
@@ -67,6 +67,7 @@ function mapGeoJSON(field,num_classes,color,scheme){
 	brew.setNumClasses(num_classes);
 	brew.setColorCode(color);
 	brew.classify(scheme);
+	console.log(brew.getBreaks())
 
 	// create the layer and add to map
 	geojson_layer = L.geoJson(geojson_data, {
