@@ -1,0 +1,101 @@
+{"type":"FeatureCollection","features":[
+    
+{"type":"Feature","properties":{"name":"Fremont CA","country.etc":"CA","state":"California","pop":" 202574", "happy score":58.2,"capital":"0"}},
+
+{"type":"Feature","properties":{"name":"Bismarck ND","country.etc":"ND","state":"North Dakota","pop":"  56927", "happy score":71.26,"capital":"2"}},
+
+{"type":"Feature","properties":{"name":"Madison WI","country.etc":"WI","state":"Wisconsin","pop":" 227642", "happy score":61.21,"capital":"2"}},
+
+{"type":"Feature","properties":{"name":"South Burlington VT","country.etc":"VT","state":"Vermont","pop":"  19162", "happy score":67.46,"capital":"0"}},
+
+{"type":"Feature","properties":{"name":"Lincoln NE","country.etc":"NE","state:":"Nebraska","pop":" 245301", "happy score":65.44,"capital":"2"}},
+
+{"type":"Feature","properties":{"name":"Columbia MD","country.etc":"MD","state":"Maryland","pop":"  97772", "happy score":56.98,"capital":"0"}},
+
+{"type":"Feature","properties":{"name":"Cedar Rapids IA","country.etc":"IA","state":"Iowa","pop":" 123243", "happy score":64.98,"capital":"0"}},
+
+{"type":"Feature","properties":{"name":"Sioux Falls SD","country.etc":"SD","state":"South Dakota","pop":" 143534", "happy score":66.21,"capital":"0"}},
+
+{"type":"Feature","properties":{"name":"Pearl City HI","country.etc":"Hi","state":"Hawaii","pop":" 45605","happy score":65.51,"capital":"0"}},
+
+{"type":"Feature","properties":{"name":"Minneapolis MN","country.etc":"MN","state":"Minnesota","pop":" 364726", "happy score":65.14,"capital":"0"}},
+
+{"type":"Feature","properties":{"name":"Plano TX","country.etc":"TX","state":"Texas","pop":" 260415","happy score":53.446,"capital":"0"}},
+
+{"type":"Feature","properties":{"name":"Charleston SC","country.etc":"SC","state":"South Carolina","pop":" 106372", "happy score":60.59,"capital":"0"}},
+
+{"type":"Feature","properties":{"name":"Seattle WA","country.etc":"WA","state":"Washington","pop":" 570430","happy score":57.33,"capital":"0"}},
+
+{"type":"Feature","properties":{"name":"Boise ID","country.etc":"ID","state":"Idaho","pop":" 193628", "happy score":62.26,"capital":"2"}},
+
+{"type":"Feature","properties":{"name":"Portland ME","country.etc":"ME","state":"Maine","pop":"  62882", "happy score":59.76,"capital":"0"}},
+
+{"type":"Feature","properties":{"name":"Scottsdale AZ","country.etc":"AZ","state":"Arizona","pop":" 230949", "happy score":56.76,"capital":"0"}},
+
+{"type":"Feature","properties":{"name":"Overland Park KS","country.etc":"KS","state":"Kansas","pop":" 169520", "happy score":55.98,"capital":"0"}},
+
+{"type":"Feature","properties":{"name":"Missoula MT","country.etc":"MT","state":"Montana","pop":"  64391", "happy score":60.34,"capital":"0"}},
+
+{"type":"Feature","properties":{"name":"Grand Rapids MI","country.etc":"MI","state":"Michigan","pop":" 193006", "happy score":48.92,"capital":"0"}},
+
+{"type":"Feature","properties":{"name":"Cape Coral FL","country.etc":"FL","state":"Florida","pop":" 137134", "happy score":54.32,"capital":"0"}},
+
+{"type":"Feature","properties":{"name":"Raleigh NC","country.etc":"NC","state":"North Carolina","pop":" 350822", "happy score":53.98,"capital":"2"}},
+
+{"type":"Feature","properties":{"name":"Aurora CO","country.etc":"CO","state":"Colorado","pop":" 304641", "happy score":59.98,"capital":"0"}},
+
+{"type":"Feature","properties":{"name":"Aurora IL","country.etc":"IL","state":"Illinois","pop":" 181120", "happy score":58.11,"capital":"0"}},
+
+{"type":"Feature","properties":{"name":"Portland OR","country.etc":"OR","state":"Oregon","pop":" 542751", "happy score":57.23,"capital":"0"}},
+
+{"type":"Feature","properties":{"name":"Virginia Beach VA","country.etc":"VA","state":"Virginia","pop":" 453884", "happy score":52.424,"capital":"0"}},
+
+{"type":"Feature","properties":{"name":"Nashua NH","country.etc":"NH","state":"New Hampshire","pop":"  87113", "happy score":50.2,"capital":"0"}},
+
+{"type":"Feature","properties":{"name":"Salt Lake City UT","country.etc":"UT","state":"Utah","pop":" 177318", "happy score":56.87,"capital":"2"}},
+
+{"type":"Feature","properties":{"name":"Boston MA","country.etc":"MA","state":"Massachusetts","pop":" 567759", "happy score":53.58,"capital":"2"}},
+
+{"type":"Feature","properties":{"name":"Reno NV","country.etc":"NV","state":"Nevada","pop":" 206626", "happy score":50.84,"capital":"0"}},
+
+{"type":"Feature","properties":{"name":"Juneau AK","country.etc":"AK","state":"Alaska","pop":"  31187", "happy score":57.47,"capital":"2"}},
+
+{"type":"Feature","properties":{"name":"Yonkers NY","country.etc":"NY","state":"New York","pop":" 198045", "happy score":51.87,"capital":"0"}},
+
+{"type":"Feature","properties":{"name":"Pittsburgh PA","country.etc":"PA","state":"Pennsylvania","pop":" 316272", "happy score":51.04,"capital":"0"}},
+
+{"type":"Feature","properties":{"name":"Cheyenne WY","country.etc":"WY","state":"Wyoming","pop":"  55833", "happy score":55.145,"capital":"2"}},
+
+{"type":"Feature","properties":{"name":"Nashville TN","country.etc":"TN","state":"Tennessee","pop":" 523547", "happy score":48.39,"capital":"2"}},
+
+{"type":"Feature","properties":{"name":"Atlanta GA","country.etc":"GA","state":"Georgia","pop":" 424096", "happy score":45.74,"capital":"2"}},
+
+{"type":"Feature","properties":{"name":"Huntsville AL","country.etc":"AL","state":"Alabama","pop":" 169155", "happy score":46.04,"capital":"0"}},
+
+{"type":"Feature","properties":{"name":"Fort Wayne IN","country.etc":"IN","state":"Indiana","pop":" 231147", "happy score":51.79,"capital":"0"}},
+
+{"type":"Feature","properties":{"name":"Springfield MO","country.etc":"MO","state":"Missouri","pop":" 150128", "happy score":50.14,"capital":"0"}},
+
+{"type":"Feature","properties":{"name":"Lexington KY","country.etc":"KY","state":"Kentucky","pop":" 274245", "happy score":50.37,"capital":"0"}},
+
+{"type":"Feature","properties":{"name":"Las Cruces NM","country.etc":"NM","state":"New Mexico","pop":" 81473", "happy score":52.38,"capital":"0"}},
+
+{"type":"Feature","properties":{"name":"Jersey City NJ","country.etc":"NJ","state":"New Jersey","pop":" 237125", "happy score":48.42,"capital":"0"}},
+
+{"type":"Feature","properties":{"name":"Columbus OH","country.etc":"OH","state":"Ohio","pop":" 741677", "happy score":45.21,"capital":"2"}},
+
+{"type":"Feature","properties":{"name":"Bridgeport CT","country.etc":"CT","state":"Connecticut","pop":" 138901", "happy score":50.26,"capital":"0"}},
+
+{"type":"Feature","properties":{"name":"Warwick RI","country.etc":"RI","state":"Rhode Island","pop":"  88443", "happy score":50.01,"capital":"0"}},
+
+{"type":"Feature","properties":{"name":"Fort Smith AR","country.etc":"AR","state":"Arkansas","pop":"  82304", "happy score":48.69,"capital":"0"}},
+
+{"type":"Feature","properties":{"name":"Jackson MS","country.etc":"MS","state":"Mississippi","pop":" 175085", "happy score":46.6,"capital":"2"}},
+
+{"type":"Feature","properties":{"name":"Oklahoma City OK","country.etc":"OK","state":"Oklahoma","pop":" 538141", "happy score":45.84,"capital":"2"}},
+
+{"type":"Feature","properties":{"name":"Shreveport LA","country.etc":"LA","state":"Louisiana","pop":" 196228", "happy score":46.69,"capital":"0"}},
+
+{"type":"Feature","properties":{"name":"Charleston WV","country.etc":"WV","state":"West Virginia","pop":"  49804", "happy score":43.825,"capital":"2"}},
+
+{"type":"Feature","properties":{"name":"Wilmington DE","country.etc":"DE","state":"Delaware","pop":"  71065", "happy score":43.15,"capital":"0"}},

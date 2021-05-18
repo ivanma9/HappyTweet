@@ -20,7 +20,7 @@
 			rel="stylesheet"
 			href="https://unpkg.com/leaflet-geosearch@3.0.0/dist/geosearch.css"
 		/>
-
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.css">
 		<!-- leaflet -->
 		<link
 			rel="stylesheet"
@@ -29,6 +29,7 @@
 		<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 		<!-- Make sure you put this AFtER leaflet.js, when using with leaflet -->
 		<script src="https://unpkg.com/leaflet-geosearch@3.0.0/dist/geosearch.umd.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script>
 
 		<!-- jquery -->
 		<script
@@ -39,6 +40,9 @@
 
 		<!-- papaparse for csv data -->
 		<script src="js/papaparse.min.js"></script>
+
+		<!-- classy brew -->
+		<script src="js/classybrew.js"></script>
 	</head>
 	<body>
 		<div class="main">
@@ -62,27 +66,44 @@
 				<div class="sidebar-title">Map Options</div>
 				<div class="sidebar-content">
 					<div class="map-option">
-						<button class="map-icon" id = "happiness-map" onclick="makeHappinessMap()">
+						<button
+							class="map-icon"
+							id="happiness-map"
+							onclick="makeHappinessMap()"
+						>
 							<img
 								src="Group Assignments/img/smiling-face-with-open-mouth 1.png"
 							/>
 						</button>
-
 						<p>@HappinessMap</p>
+						<p> This is  a choropleth map of happiness scores assigned to different US cities. The data represented was 
+						    collected by Wallethub from various reports and surveys reporting different measures reflecting happiness. The researchers assigned 
+						    weights to each measure analyzed to calculate an overall happiness score for each city. The map represents average happiness scores of the 
+						    multiple cities recorded for each state. Each state is categorized into different colors based off these scores. Red colors represent lower
+						    average happiness scores, meaning lower levels of happiness, and green scores represent higher happiness scores, meaning higher levels of 
+						    happiness.
+						<p>
+
 					</div>
-					<div class="map-option" >
-						<button class="map-icon" id = "twitter-map" onclick="makeTwitterMap()">
+					<div class="map-option">
+						<button
+							class="map-icon"
+							id="twitter-map"
+							onclick="makeTwitterMap()"
+						>
 							<img src="Group Assignments/img/10wmt-superJumbo-v4 1.png" />
 						</button>
 						<p>@TwitterMap</p>
+						<p> Click on this button to view geo-located tweets and twitter content from the dataset collected by Z. Cheng, J. Caverlee, and K. Lee. <p>
 					</div>
 					<div class="map-option">
-						<button class="map-icon" id = "both-map" onclick="makeBothMap()">
+						<button class="map-icon" id="both-map" onclick="makeBothMap()">
 							<img
 								src="Group Assignments/img/12494-earth-globe-europe-africa 1.png"
 							/>
 						</button>
 						<p>@BothMaps</p>
+						<p> Click on this button to view both the happiness map and the twitter map overlaid on top of each other. <p>
 					</div>
 				</div>
 			</div>
