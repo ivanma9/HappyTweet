@@ -63,7 +63,6 @@ function readCSV(path, type) {
 				if (csvData){
 					csvData = data;
 				}
-			}
 				
 			} else if (type == "t") {
 				mapCSVTweet(data);
