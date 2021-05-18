@@ -1,38 +1,60 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>World Choropleth</title>
-	<meta charset="utf-8" />
+	<head>
+		<title>World Choropleth</title>
+		<meta charset="utf-8" />
 
-	<!-- style sheets -->
-	<link rel="stylesheet" href="css/style.css">
+		<!-- style sheets -->
+		<link rel="stylesheet" href="css/style.css" />
 
-	<!-- leaflet -->
-	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+		<!-- leaflet -->
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+		/>
+		<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 
-	<!-- jquery -->
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+		<!-- jquery -->
+		<script
+			src="https://code.jquery.com/jquery-3.6.0.min.js"
+			integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			crossorigin="anonymous"
+		></script>
 
-   	<!-- classy brew -->
-	<script src="js/classybrew.js"></script>
-</head>
-<body>
+		<!-- classy brew -->
+		<script src="js/classybrew.js"></script>
+	</head>
+	<body>
+		<div class="header">World Choropleth</div>
+		<div class="sidebar">
+			<div
+				class="map-item"
+			>
+				Happy Scores by state
+			</div>
+			<p>
+				This is a choropleth map of happiness scores assigned to different US
+				cities. The data represented was collected by Wallethub from various
+				reports and surveys reporting different measures reflecting happiness.
+				The researchers assigned weights to each measure analyzed to calculate
+				an overall happiness score for each city. The map represents average
+				happiness scores of the multiple cities recorded for each state. Each
+				state is categorized into different colors based off these scores. Red
+				colors represent lower average happiness scores, meaning lower levels of
+				happiness, and green scores represent higher happiness scores, meaning
+				higher levels of happiness.
+			</p>
 
-	<div class="header">
-		World Choropleth
-	</div>
-	<div class="sidebar">
-		<div class="map-item" onclick="mapGeoJSON('pop_est',5,'YlOrRd','quantiles');">Happy Scores by state</div>
-		<!-- <div class="map-item" onclick="mapGeoJSON('happy score',5,'PuBuGn','quantiles');">Happy Scores by state</div> -->
-	</div>
-	<div class="content">
-		<div id="map"></div>
-	</div>
-	<div class="footer">
-	</div>
+			<p>
+				<!-- <div class="map-item" onclick="mapGeoJSON('happy score',5,'PuBuGn','quantiles');">Happy Scores by state</div> -->
+			</p>
+		</div>
 
-	<script src="js/map.js"></script>
+		<div class="content">
+			<div id="map"></div>
+		</div>
+		<div class="footer"></div>
 
-</body>
+		<script src="js/map.js"></script>
+	</body>
 </html>

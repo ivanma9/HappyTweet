@@ -32,6 +32,7 @@ body {
 	padding:10px;
 	background-color: #5a94d9;
 	overflow: auto;
+	color: white;
 }
 
 .content {
@@ -76,4 +77,5 @@ body {
     border: 1px solid rgb(230, 230, 230);
     padding: 10px;
     background-color: rgb(225, 225, 225);
+	color: black;
 }
