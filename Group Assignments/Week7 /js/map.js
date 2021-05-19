@@ -40,7 +40,7 @@ function getGeoJSON(){
 		geojson_data = data;
 
 		// call the map function
-		mapGeoJSON("happy score", 10, "RdYlGn", "quantile");
+		mapGeoJSON("average happy score", 10, "RdYlGn", "quantile");
 	})
 }
 function mapGeoJSON(field,num_classes,color,scheme){
@@ -127,7 +127,7 @@ function createLegend(){
 			}
 					console.log(labels);
 
-			div.innerHTML = labels.join('<br>');
+			div.innerHTML = "<h3>Happy score scale</h3>" + labels.join('<br>');
 			return div;
 		};
 		
