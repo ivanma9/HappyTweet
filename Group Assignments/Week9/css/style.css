@@ -2,7 +2,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .container {
-  width: 300px;
+  width: 500px;
   margin: 2rem auto 0;
 }
 .moji {
@@ -20,6 +20,7 @@ input {
 span {
   font-weight: bold;
   color: tomato;
+  min-width: 130px;
 }
 span:last-child {
   color: #5fcf80;
