@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function () {
+				$("button").click(function () {
+					$.ajax({
+						type: "POST",
+						url: "http://https://api.twitter.com/2/tweets/search/stream/rules.com/example.php",
+						data: {
+							add: [{ value: "cat has:geo", tag: "cats with geo" }],
+						},
+						success: function (data) {
+							console.log(data);
+							//do something when request is successfull
+						},
+                        
+						dataType: "json",
+					});
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div id="div1"><h2>Let jQuery AJAX Change This Text</h2></div>
+
+		<button>Get External Content</button>
+	</body>
+</html>
