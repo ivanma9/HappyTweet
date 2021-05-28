@@ -259,7 +259,7 @@ p {
 	height: 600px;
 }
 
-.container {width: 200px;
+.container {width: 100px;
   margin: 2rem auto 0;
 }
 
@@ -269,7 +269,7 @@ p {
 }
 
 input {
-  width: 100%;
+  width: 50%;
   margin: 0 10px;
 }
 
