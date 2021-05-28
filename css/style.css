@@ -259,6 +259,36 @@ p {
 	height: 600px;
 }
 
+.container {width: 500px;
+  margin: 2rem auto 0;
+}
+
+.moji {
+  font-size: 8em;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  margin: 0 10px;
+}
+
+.slider {
+  display: flex;
+  justify-content: space-between;
+}
+
+span {
+  font-weight: bold;
+  color: tomato;
+  min-width: 130px;
+}
+
+span:last-child {
+  color: #5fcf80;
+}
+	
+
 form input {
 	width: 200px;
 	font-family: "Josefin Sans", sans-serif;
@@ -269,3 +299,4 @@ form input {
 	font-size: large;
 	padding: 15px;
 }
+
