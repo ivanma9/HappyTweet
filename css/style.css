@@ -258,3 +258,14 @@ p {
 	width: 1200px;
 	height: 600px;
 }
+
+form input {
+	width: 200px;
+	font-family: "Josefin Sans", sans-serif;
+	background-color: #5a94d9;
+	color:rgb(255, 255, 255);
+	border-radius: 15px;
+	border-color: #5a94d9;
+	font-size: large;
+	padding: 15px;
+}

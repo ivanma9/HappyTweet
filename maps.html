@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Happy Tweet</title>
+		<link
+			rel="icon"
+			href="Group Assignments/img/happy_tweet_logo.png"
+			type="image/x-icon"
+		/>
+		<meta charset="utf-8" />
+
+		<!-- style sheets -->
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;1,400&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/leaflet-geosearch@3.0.0/dist/geosearch.css"
+		/>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.css">
+		<!-- leaflet -->
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+		/>
+		<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+		<!-- Make sure you put this AFtER leaflet.js, when using with leaflet -->
+		<script src="https://unpkg.com/leaflet-geosearch@3.0.0/dist/geosearch.umd.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script>
+
+		<!-- jquery -->
+		<script
+			src="https://code.jquery.com/jquery-3.6.0.min.js"
+			integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			crossorigin="anonymous"
+		></script>
+
+		<!-- papaparse for csv data -->
+		<script src="js/papaparse.min.js"></script>
+
+		<!-- classy brew -->
+		<script src="js/classybrew.js"></script>
+	</head>
+	<body>
+		<div class="main">
+			<div class="header">
+				<div id="logo">
+					<img src="Group Assignments/img/happy_tweet_logo.png" />
+					Happy Tweet
+				</div>
+				<hr class="rounded" />
+				<nav>
+					<ul>
+						<li><a href="maps.html">#MAPS </a></li>
+						<li><a href="about.html">#ABOUT </a></li>
+						<li><a href="figures.html">#FACTS AND FIGURES</a></li>
+					</ul>
+				</nav>
+				<hr class="rounded" />
+			</div>
+
+			<div class="sidebar">
+				<div class="sidebar-title">Map Options</div>
+				<div class="sidebar-content">
+					<div class="map-option">
+						<button
+							class="map-icon"
+							id="happiness-map"
+							onclick="makeHappinessMap()"
+						>
+							<img
+								src="Group Assignments/img/smiling-face-with-open-mouth 1.png"
+							/>
+						</button>
+						<p>@HappinessMap</p>
+						<p> This is  a choropleth map of happiness scores assigned to different US cities. The data represented was 
+						    collected by Wallethub from various reports and surveys reporting different measures reflecting happiness. The researchers assigned 
+						    weights to each measure analyzed to calculate an overall happiness score for each city. The map represents average happiness scores of the 
+						    multiple cities recorded for each state. Each state is categorized into different colors based off these scores. Red colors represent lower
+						    average happiness scores, meaning lower levels of happiness, and green scores represent higher happiness scores, meaning higher levels of 
+						    happiness.
+						<p>
+
+					</div>
+					<div class="map-option">
+						<button
+							class="map-icon"
+							id="twitter-map"
+							onclick="makeTwitterMap()"
+						>
+							<img src="Group Assignments/img/10wmt-superJumbo-v4 1.png" />
+						</button>
+						<p>@TwitterMap</p>
+						<p> Click on this button to view geo-located tweets and twitter content from the dataset collected by Z. Cheng, J. Caverlee, and K. Lee. <p>
+					</div>
+					<div class="map-option">
+						<button class="map-icon" id="both-map" onclick="makeBothMap()">
+							<img
+								src="Group Assignments/img/12494-earth-globe-europe-africa 1.png"
+							/>
+						</button>
+						<p>@BothMaps</p>
+						<p> Click on this button to view both the happiness map and the twitter map overlaid on top of each other. <p>
+					</div>
+				</div>
+			</div>
+			<div class="content" id="map"></div>
+			<div class="footer">
+				Happy Tweet | DH151 | Ivan Ma, MJ Howland, Josephine Meyer-Hogan
+			</div>
+		</div>
+		<script src="js/map.js"></script>
+	</body>
+</html>
