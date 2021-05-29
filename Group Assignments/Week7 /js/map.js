@@ -60,14 +60,12 @@ function mapGeoJSON(field,num_classes,color,scheme){
 	geojson_data.features.forEach(function(item,index){
 		values.push(item.properties[field])
 	})
-	console.log(values);
 
 	// set up the "brew" options
 	brew.setSeries(values);
 	brew.setNumClasses(num_classes);
 	brew.setColorCode(color);
 	brew.classify(scheme);
-	console.log(brew.getBreaks())
 
 	// create the layer and add to map
 	geojson_layer = L.geoJson(geojson_data, {
@@ -114,8 +112,6 @@ function createLegend(){
 		
 		labels = [],
 		from, to;
-		console.log("breaks");
-		console.log(breaks);
 		for (var i = 0; i < breaks.length; i++) {
 			from = breaks[i];
 			to = breaks[i + 1];
@@ -183,7 +179,6 @@ function createInfoPanel(){
 	// method that we will use to update the control based on feature properties passed
 	info_panel.update = function (properties) {
 		// if feature is highlighted
-		console.log(properties);
 		if(properties){
 			this._div.innerHTML = `<b>${properties.name}</b><br>${fieldtomap}: ${properties[fieldtomap]}`;
 		}

@@ -5,7 +5,7 @@ let lon = 0;
 let zl = 3;
 let path1 = "data/happiness_cities.csv";
 let path2 = "data/user_tweet.csv";
-let geojsonPath = "data/happy_cities.json";
+let geojsonPath = "data/updatedstates.json";
 let markers = L.featureGroup();
 
 let geojson_data;
@@ -25,19 +25,25 @@ $(document).ready(function () {
 });
 
 function makeHappinessMap() {
+	if (geojson_layer) geojson_layer.clearLayers();
 	markers.clearLayers();
 	getGeoJSON();
 }
 
 function makeTwitterMap() {
+	if (geojson_layer) geojson_layer.clearLayers();
 	markers.clearLayers();
 	readCSV(path2, "t");
 }
 
 function makeBothMap() {
-	markers.clearLayers();
-	getGeoJSON();
-	readCSV(path2, "t");
+	if (geojson_layer) geojson_layer.clearLayers();
+		getGeoJSON();
+
+	setTimeout( () => {
+		markers.clearLayers();
+		readCSV(path2, "t");
+	}, 200);
 }
 
 // create the map
@@ -61,10 +67,9 @@ function readCSV(path, type) {
 			// map the data
 			if (type == "h") {
 				mapCSV(data);
-				if (csvData){
+				if (csvData) {
 					csvData = data;
 				}
-				
 			} else if (type == "t") {
 				mapCSVTweet(data);
 			}
@@ -163,7 +168,7 @@ function getGeoJSON() {
 		geojson_data = data;
 
 		// call the map function
-		mapGeoJSON("happy score", 7, "RdYlGn", "quantile");
+		mapGeoJSON("average happy score", 10, "RdYlGn", "quantile");
 	});
 }
 function mapGeoJSON(field, num_classes, color, scheme) {
@@ -182,7 +187,6 @@ function mapGeoJSON(field, num_classes, color, scheme) {
 	geojson_data.features.forEach(function (item, index) {
 		values.push(item.properties[field]);
 	});
-	console.log(values);
 
 	// set up the "brew" options
 	brew.setSeries(values);
@@ -192,12 +196,17 @@ function mapGeoJSON(field, num_classes, color, scheme) {
 
 	// create the layer and add to map
 	geojson_layer = L.geoJson(geojson_data, {
-		style: (feature) => getScoresStyle, 
-		// pointToLayer: function (feature, latlng) {
-		// 	return L.circleMarker(latlng, getStyle(feature));
-		// },
+		style: getStyle, //call a function to style each feature
 		onEachFeature: onEachFeature, // actions on each feature
 	}).addTo(map);
+
+	// geojson_layer = L.geoJson(geojson_data, {
+	// 	style: (feature) => getScoresStyle,
+	// 	// pointToLayer: function (feature, latlng) {
+	// 	// 	return L.circleMarker(latlng, getStyle(feature));
+	// 	// },
+	// 	onEachFeature: onEachFeature, // actions on each feature
+	// }).addTo(map);
 
 	map.fitBounds(geojson_layer.getBounds());
 	// create the legend
@@ -205,20 +214,16 @@ function mapGeoJSON(field, num_classes, color, scheme) {
 
 	// create the infopanel
 	createInfoPanel();
-	let i = 0;
-	map.eachLayer(function () {
-		i += 1;
-	});
-	console.log("Map has", i, "layers.");
 }
 
 function getStyle(feature) {
 	return {
-		color: brew.getColorInRange(feature.properties[fieldtomap]),
-		radius: 10,
+		stroke: true,
+		color: "white",
 		weight: 1,
+		fill: true,
 		fillColor: brew.getColorInRange(feature.properties[fieldtomap]),
-		fillOpacity: 0.9,
+		fillOpacity: 0.8,
 	};
 }
 
@@ -262,7 +267,7 @@ function createLegend() {
 				);
 			}
 		}
-		div.innerHTML = `<h3>${fieldtomap} legend </h3>` + labels.join("<br>");
+		div.innerHTML = `<h3>${fieldtomap} scale </h3>` + labels.join("<br>");
 		return div;
 	};
 	legend.addTo(map);
@@ -270,7 +275,6 @@ function createLegend() {
 
 // Function that defines what will happen on user interactions with each feature
 function onEachFeature(feature, layer) {
-	console.log(layer.feature);
 	layer.on({
 		mouseover: highlightFeature,
 		mouseout: resetHighlight,
@@ -286,8 +290,8 @@ function highlightFeature(e) {
 	// style to use on mouse over
 	layer.setStyle({
 		weight: 2,
-		color: '#666',
-		fillOpacity: 0.7
+		color: "#666",
+		fillOpacity: 0.7,
 	});
 
 	if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
@@ -305,17 +309,7 @@ function resetHighlight(e) {
 
 // on mouse click on a feature, zoom in to it
 function zoomToFeature(e) {
-	console.log(e.target.feature.geometry.coordinates[0] - 1);
-	var southWest = new L.LatLng(
-			e.target.feature.geometry.coordinates[1] - 0.1,
-			e.target.feature.geometry.coordinates[0] - 0.1
-		),
-		northEast = new L.LatLng(
-			e.target.feature.geometry.coordinates[1] + 0.1,
-			e.target.feature.geometry.coordinates[0] + 0.1
-		),
-		bounds = new L.LatLngBounds(southWest, northEast);
-	map.fitBounds(bounds);
+	map.fitBounds(e.target.getBounds());
 }
 
 function createInfoPanel() {
@@ -334,7 +328,7 @@ function createInfoPanel() {
 		}
 		// if feature is not highlighted
 		else {
-			this._div.innerHTML = "Hover over a city";
+			this._div.innerHTML = "Hover over a state";
 		}
 	};
 
@@ -342,11 +336,12 @@ function createInfoPanel() {
 }
 
 function getScoresStyle(feature) {
-	const cityData = csvData[csvPathsIndex].data.find((row) => row.City === feature.properties.NAME);
+	const cityData = csvData[csvPathsIndex].data.find(
+		(row) => row.City === feature.properties.NAME
+	);
 
 	if (cityData) {
 		const stateScore = cityData["Total Score"];
-
 
 		return {
 			fillColor: getColorInRange(stateScore),
