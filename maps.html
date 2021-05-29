@@ -20,7 +20,10 @@
 			rel="stylesheet"
 			href="https://unpkg.com/leaflet-geosearch@3.0.0/dist/geosearch.css"
 		/>
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.css">
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.css"
+		/>
 		<!-- leaflet -->
 		<link
 			rel="stylesheet"
@@ -46,6 +49,55 @@
 	</head>
 	<body>
 		<div class="main">
+			<!-- The Modal -->
+			<div id="myModal" class="modal">
+				<!-- Modal content -->
+				<div class="modal-content">
+					<span class="close">&times;</span>
+					<h2>Map guide</h2>
+					<div class="paraflex">
+						<button class="map-icon" id="happiness-map">
+							<img
+								src="Group Assignments/img/smiling-face-with-open-mouth 1.png"
+							/>
+						</button>
+						<p>
+							This is a choropleth map of happiness scores assigned to different
+							US cities. The data represented was collected by Wallethub from
+							various reports and surveys reporting different measures
+							reflecting happiness. The researchers assigned weights to each
+							measure analyzed to calculate an overall happiness score for each
+							city. The map represents average happiness scores of the multiple
+							cities recorded for each state. Each state is categorized into
+							different colors based off these scores. Red colors represent
+							lower average happiness scores, meaning lower levels of happiness,
+							and green scores represent higher happiness scores, meaning higher
+							levels of happiness.
+						</p>
+					</div>
+					<div class="paraflex">
+						<button class="map-icon" id="twitter-map">
+							<img src="Group Assignments/img/10wmt-superJumbo-v4 1.png" />
+						</button>
+						<p>
+							Click on this button to view geo-located tweets and twitter
+							content from the dataset collected by Z. Cheng, J. Caverlee, and
+							K. Lee.
+						</p>
+					</div>
+					<div class="paraflex">
+						<button class="map-icon" id="both-map">
+							<img
+								src="Group Assignments/img/12494-earth-globe-europe-africa 1.png"
+							/>
+						</button>
+						<p>
+							Click on this button to view both the happiness map and the
+							twitter map overlaid on top of each other.
+						</p>
+					</div>
+				</div>
+			</div>
 			<div class="header">
 				<div id="logo">
 					<img src="Group Assignments/img/happy_tweet_logo.png" />
@@ -76,15 +128,8 @@
 							/>
 						</button>
 						<p>@HappinessMap</p>
-						<p> This is  a choropleth map of happiness scores assigned to different US cities. The data represented was 
-						    collected by Wallethub from various reports and surveys reporting different measures reflecting happiness. The researchers assigned 
-						    weights to each measure analyzed to calculate an overall happiness score for each city. The map represents average happiness scores of the 
-						    multiple cities recorded for each state. Each state is categorized into different colors based off these scores. Red colors represent lower
-						    average happiness scores, meaning lower levels of happiness, and green scores represent higher happiness scores, meaning higher levels of 
-						    happiness.
-						<p>
-
 					</div>
+
 					<div class="map-option">
 						<button
 							class="map-icon"
@@ -94,8 +139,8 @@
 							<img src="Group Assignments/img/10wmt-superJumbo-v4 1.png" />
 						</button>
 						<p>@TwitterMap</p>
-						<p> Click on this button to view geo-located tweets and twitter content from the dataset collected by Z. Cheng, J. Caverlee, and K. Lee. <p>
 					</div>
+
 					<div class="map-option">
 						<button class="map-icon" id="both-map" onclick="makeBothMap()">
 							<img
@@ -103,15 +148,20 @@
 							/>
 						</button>
 						<p>@BothMaps</p>
-						<p> Click on this button to view both the happiness map and the twitter map overlaid on top of each other. <p>
+					</div>
+					<div class="map-option">
+						<!-- Trigger/Open The Modal -->
+						<button id="myBtnHelp">Help</button>
 					</div>
 				</div>
 			</div>
 			<div class="content" id="map"></div>
+
 			<div class="footer">
 				Happy Tweet | DH151 | Ivan Ma, MJ Howland, Josephine Meyer-Hogan
 			</div>
 		</div>
 		<script src="js/map.js"></script>
+		<script src="js/modal.js"></script>
 	</body>
 </html>
