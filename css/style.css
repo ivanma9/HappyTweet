@@ -104,6 +104,7 @@ li a .active {
 .sidebar-title {
 	font-size: 24px;
 	margin: 10px;
+	margin-bottom: 40px;
 }
 .map-option {
 	display: flex;
@@ -345,12 +346,12 @@ form input {
 	cursor: pointer;
 }
 #myBtnHelp {
-	background-color: white;
-	border-color: white;
-	font-family: "Josefin Sans", sans-serif;
-	color: black;
-	width: 100px;
-	height: 30px;
+	float: right;
+	background-color: #5a94d9;
+	border: none;
+}
+#myBtnHelp img {
+	max-width: 50px;
 }
 .paraflex {
 	display:flex;
