@@ -422,7 +422,10 @@ form input {
 	min-height: 150px;
 }
 #explore {
-	width: 200px;
+	padding: 15px;
+	font-size: large;
+	width: 220px;
+	background-color: white;
 	border: 3px solid white;
 }
 #cityinput {

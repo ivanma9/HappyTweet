@@ -1,5 +1,5 @@
 // Global variables
-let emojivalue = sessionStorage.getItem("emojivalue")
+let emojivalue = sessionStorage.getItem("emojivalue");
 let rangeValue = Math.round(emojivalue / 10);
 let userCity = sessionStorage.getItem("usercity");
 let map;
@@ -389,9 +389,10 @@ function getUserMarker() {
 			let lat = value[0].y;
 			let label = value[0].label;
 			var marker = L.marker([lat, lon]).addTo(map); // CAREFULL!!! The first position corresponds to the lat (y) and the second to the lon (x)
+			
 			marker
 				.bindPopup(
-					`<p style="margin-bottom:3px;"><b> @You are here :) </b></p>${label}<br> <div style="text-align:center"><p style="margin:3px;">Happy Score:</p><p style="margin:2px;"> ${emojivalue} ~ ${mojis[rangeValue]}<p></div>`
+					`<p style="margin-bottom:3px;"><b> @You are here :) </b></p>${label}<br> <div style="text-align:center"><p style="margin:3px;">Happy Score:</p><p style="margin:2px;"> ${emojivalue? emojivalue: ""} ~ ${mojis[rangeValue]}<p></div>`
 				)
 				.openPopup(); // note the "openPopup()" method. It only works on the marker
 			console.log(label + " : " + lon + " , " + lat);
