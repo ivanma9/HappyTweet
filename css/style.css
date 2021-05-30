@@ -264,11 +264,17 @@ p {
 .top3 {
 	display: flex;
 	justify-content: space-between;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 .container {
 	width: 100%;
-	padding: 5px;
+	padding: 15px;
 	text-align: center;
+}
+.container p {
+	font-size: 28px;
+	margin: 0px;
 }
 .moji {
 	font-size: 3em;
@@ -341,6 +347,9 @@ form input {
 	font-size: 30px;
 	width: 70%;
 }
+.submitbutton{
+	margin-top: 30px;
+}
 
 #happySlider {
 	width: 100%;
@@ -352,7 +361,7 @@ form input {
 	position: absolute;
 	border-radius: 4px;
 	font-size: 20px;
-	left: 50%;
+	left: 43%;
 	top: 20px;
 }
 .bubble::after {
@@ -378,7 +387,11 @@ form input {
 	background-color: rgb(0, 0, 0); /* Fallback color */
 	background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
 }
-
+.divider {
+	height: 50px;
+	background: #5a94d9;
+	margin: 60px 0px 60px 0px;
+}
 /* Modal Content/Box */
 .modal-content {
 	background-color: #fefefe;
@@ -430,5 +443,7 @@ form input {
 }
 #cityinput {
 	margin: 15px;
-	height: 30px;
+	height: 50px;
+	width: 70%;
+	font-size: 26px;
 }

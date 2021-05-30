@@ -53,7 +53,7 @@ function makeHappinessMap() {
 function makeTwitterMap() {
 	if (geojson_layer) geojson_layer.clearLayers();
 	markers.clearLayers();
-	readCSV(path2, "t");
+	readCSV(path1, "t");
 }
 
 function makeBothMap() {
@@ -62,7 +62,7 @@ function makeBothMap() {
 
 	setTimeout( () => {
 		markers.clearLayers();
-		readCSV(path2, "t");
+		readCSV(path1, "t");
 	}, 200);
 }
 
@@ -155,6 +155,9 @@ function mapCSVTweet(data) {
 	sliced1000.forEach(function (item, index) {
 		// console.log(item);
 		let marker = L.circleMarker([item.lat, item.lon], circleOptions);
+		marker.on("click", function (e) {
+			map.setView(e.latlng, 13);
+		});
 
 		// add marker to featuregroup
 		markers.addLayer(marker);
@@ -305,7 +308,6 @@ function onEachFeature(feature, layer) {
 // on mouse over, highlight the feature
 function highlightFeature(e) {
 	var layer = e.target;
-	console.log(layer);
 
 	// style to use on mouse over
 	layer.setStyle({
@@ -313,10 +315,6 @@ function highlightFeature(e) {
 		color: "#666",
 		fillOpacity: 0.7,
 	});
-
-	if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
-		layer.bringToFront();
-	}
 
 	info_panel.update(layer.feature.properties);
 }
