@@ -35,27 +35,50 @@
 					in investigating the effects of this depenency on mental health.
 				</p>
 
-				<p>How happy are you?</p>
+				<p style="font-size: 28px">How happy are you?</p>
 			</div>
-			<div class="container">
-				<div class="moji">😄</div>
-				<div class="slider">
-					<span>I am not happy at all</span>
+			<div class="top3">
+				<div class="container">
+					<div class="moji">😄</div>
+					<div class="slider">
+						<span>I am not happy at all</span>
+						<div class="sliderv">
+							<input
+								id="happySlider"
+								type="range"
+								value="50"
+								min="0"
+								max="100"
+								step="1"
+							/>
+							<div class="bubble" >50</div>
+						</div>
+						<span>I am extremely happy!</span>
+					</div>
+				</div>
+				<div class="container">
+					<br />
+					<label for="fname">Do you live in a happy place?</label><br />
 					<input
-						id="happySlider"
-						type="range"
-						value="0"
-						min="0"
-						max="10"
-						step="1"
+						id="cityinput"
+						type="text"
+						name="theName"
+						value="Ex. Los Angeles, CA"
+						onblur="if(this.value==''){ this.value='Ex. Los Angeles, CA'; this.style.color='#BBB';}"
+						onfocus="if(this.value=='Ex. Los Angeles, CA'){ this.value=''; this.style.color='#000';}"
+						style="color: #bbb"
 					/>
-					<span>I am extremely happy!</span>
+					<p style="font-size: 20px">Ex. "Los Angeles, CA" or "Los Angeles"</p>
+				</div>
+				<div class="container">
+					<br />
+					<form class="submitbutton" action="maps.html">
+						<input type="submit" value="Explore" />
+					</form>
 				</div>
 			</div>
-			<p>Click below to learn more about our project</p>
-			<form action="maps.html"><input type="submit" value="Explore" /></form>
 
-			<img id = "diagram" src="Group Assignments/img/Twitter_Home_Page.png" />
-			</div>
+			<img id="diagram" src="Group Assignments/img/Twitter_Home_Page.png" />
+		</div>
 	</body>
 </html>

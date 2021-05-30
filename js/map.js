@@ -1,4 +1,7 @@
 // Global variables
+let emojivalue = sessionStorage.getItem("emojivalue")
+let rangeValue = Math.round(emojivalue / 10);
+let userCity = sessionStorage.getItem("usercity");
 let map;
 let lat = 0;
 let lon = 0;
@@ -18,9 +21,26 @@ let brew = new classyBrew();
 let legend = L.control({ position: "bottomright" });
 let info_panel = L.control();
 
+const mojis = [
+	"😪",
+	"🥺",
+	"😩",
+	"😞",
+	"🙁",
+	"😐",
+	"🙂",
+	"😀",
+	"😄",
+	"😎",
+	"🤩",
+];
+
 // initialize
 $(document).ready(function () {
 	createMap(lat, lon, zl);
+	console.log(userCity);
+	console.log(emojivalue);
+	getUserMarker();
 	// readCSV(path);
 });
 
@@ -352,22 +372,29 @@ function getScoresStyle(feature) {
 	}
 }
 
-//const provider = new GeoSearch.OpenStreetMapProvider();
+function getUserMarker() {
+	// create a marker
+	let query_addr = userCity;
+	const provider = new window.GeoSearch.OpenStreetMapProvider();
 
-// // create a marker
-// let query_addr = "Irvine";
-// // Get the provider, in this case the OpenStreetMap (OSM) provider. For some reason, this is the "wrong" way to instanciate it. Instead, we should be using an import "leaflet-geosearch" but I coulnd't make that work
-// let query_promise = provider.search({
-// 	query: query_addr,
-// });
-// query_promise
-// 	.then((value) => {
-// 		// Success!
-// 		let lon = value[0].x;
-// 		let lat = value[0].y;
-// 		let label = value[0].label;
-// 		//var marker = L.marker([y_coor, x_coor]).addTo(map); // CAREFULL!!! The first position corresponds to the lat (y) and the second to the lon (x)
-// 		//marker.bindPopup("<b>Found location</b><br>" + label).openPopup(); // note the "openPopup()" method. It only works on the marker
-// 		console.log( label + " : " + lon + " , " + lat);
-// 	})
-// 	.catch(console.log.bind(console));
+	// Get the provider, in this case the OpenStreetMap (OSM) provider. For some reason, this is the "wrong" way to instanciate it. Instead, we should be using an import "leaflet-geosearch" but I coulnd't make that work
+	let query_promise = provider.search({
+		query: query_addr,
+	});
+	query_promise
+		.then((value) => {
+			// Success!
+			console.log(value);
+			let lon = value[0].x;
+			let lat = value[0].y;
+			let label = value[0].label;
+			var marker = L.marker([lat, lon]).addTo(map); // CAREFULL!!! The first position corresponds to the lat (y) and the second to the lon (x)
+			marker
+				.bindPopup(
+					`<p style="margin-bottom:3px;"><b> @You are here :) </b></p>${label}<br> <div style="text-align:center"><p style="margin:3px;">Happy Score:</p><p style="margin:2px;"> ${emojivalue} ~ ${mojis[rangeValue]}<p></div>`
+				)
+				.openPopup(); // note the "openPopup()" method. It only works on the marker
+			console.log(label + " : " + lon + " , " + lat);
+		})
+		.catch(console.log.bind(console));
+}

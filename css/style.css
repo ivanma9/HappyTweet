@@ -250,7 +250,7 @@ p {
 }
 
 .home {
-	z-index:2;
+	z-index: 2;
 	background-color: rgb(255, 255, 255);
 	color: #5a94d9;
 	font-size: 30px;
@@ -261,14 +261,17 @@ p {
 	width: 1200px;
 	height: 600px;
 }
-
-.container {
-	width: 100px;
-	margin: 2rem auto 0;
+.top3 {
+	display: flex;
+	justify-content: space-between;
 }
-
+.container {
+	width: 100%;
+	padding: 5px;
+	text-align: center;
+}
 .moji {
-	font-size: 8em;
+	font-size: 3em;
 	text-align: center;
 }
 
@@ -281,11 +284,18 @@ input {
 	display: flex;
 	justify-content: space-between;
 }
+.sliderv {
+	display: flex;
+	flex-direction: column;
+	width: 200px;
+	position: relative;
+}
 
 span {
 	font-weight: bold;
 	color: tomato;
 	min-width: 130px;
+	font-size: 20px;
 }
 
 span:last-child {
@@ -298,16 +308,63 @@ span:last-child {
 }
 
 form input {
-	width: 200px;
 	font-family: "Josefin Sans", sans-serif;
-	background-color: #5a94d9;
 	color: rgb(255, 255, 255);
 	border-radius: 15px;
 	border-color: #5a94d9;
-	font-size: large;
-	padding: 15px;
+	margin: 1em;
+	border: none;
+	padding: 30px;
+	padding-left: 60px;
+	text-align: left;
+	background: linear-gradient(
+				-120deg,
+				transparent 1em,
+				#5a94d9 1.05em,
+				#5a94d9 1.5em,
+				transparent 1.45em,
+				transparent 2em,
+				#5a94d9 2.05em
+			)
+			top no-repeat,
+		linear-gradient(
+				300deg,
+				transparent 1em,
+				#5a94d9 0.05em,
+				#5a94d9 1.5em,
+				transparent 1.45em,
+				transparent 2em,
+				#5a94d9 2.05em
+			)
+			bottom no-repeat;
+	background-size: 100% 50%;
+	font-size: 30px;
+	width: 70%;
 }
 
+#happySlider {
+	width: 100%;
+}
+.bubble {
+	background: #5a94d9;
+	color: white;
+	padding: 4px 12px;
+	position: absolute;
+	border-radius: 4px;
+	font-size: 20px;
+	left: 50%;
+	top: 20px;
+}
+.bubble::after {
+	content: "";
+	position: absolute;
+	margin-bottom: 100px;
+	width: 2px;
+	height: 2px;
+	background: #5a94d9;
+	top: -1px;
+	left: 50%;
+}
 /* The Modal (background) */
 .modal {
 	display: none; /* Hidden by default */
@@ -329,11 +386,10 @@ form input {
 	padding: 20px;
 	border: 1px solid #888;
 	width: 80%; /* Could be more or less, depending on screen size */
-	
 }
 .modal-content p {
 	font-size: medium;
-	margin-left:200px;
+	margin-left: 200px;
 }
 
 /* The Close Button */
@@ -361,11 +417,15 @@ form input {
 	cursor: pointer;
 }
 .paraflex {
-	display:flex;
+	display: flex;
 	margin-bottom: 10px;
 	min-height: 150px;
 }
 #explore {
-	width: 140px;
+	width: 200px;
 	border: 3px solid white;
+}
+#cityinput {
+	margin: 15px;
+	height: 30px;
 }
