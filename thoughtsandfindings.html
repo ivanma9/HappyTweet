@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Happy Tweet</title>
+		<link
+			rel="icon"
+			href="Group Assignments/img/happy_tweet_logo.png"
+			type="image/x-icon"
+		/>
+		<meta charset="utf-8" />
+
+		<!-- style sheets -->
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;1,400&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/leaflet-geosearch@3.0.0/dist/geosearch.css"
+		/>
+
+		<!-- leaflet -->
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+		/>
+		<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+		<!-- Make sure you put this AFtER leaflet.js, when using with leaflet -->
+		<script src="https://unpkg.com/leaflet-geosearch@3.0.0/dist/geosearch.umd.js"></script>
+
+		<!-- jquery -->
+		<script
+			src="https://code.jquery.com/jquery-3.6.0.min.js"
+			integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			crossorigin="anonymous"
+		></script>
+
+		<!-- papaparse for csv data -->
+		<script src="js/papaparse.min.js"></script>
+	</head>
+	<body>
+		<div class="main">
+			<div class="header">
+				<div id="logo">
+					<img src="Group Assignments/img/happy_tweet_logo.png" />
+					Happy Tweet
+				</div>
+				<hr class="rounded" />
+				<nav>
+					<ul>
+						<li><a href="maps.html">#MAPS </a></li>
+						<li><a href="about.html">#ABOUT </a></li>
+						<li><a href="thoughtsandfindings.html">#THOUGHTS AND FINDINGS</a></li>
+					</ul>
+				</nav>
+				<hr class="rounded" />
+			</div>
+			
+			<div id="thoughts">
+				#Thoughts
+				<p>
+					As we have mentioned, social media is an extremely central part of today’s world. 
+					We were initially interested in how this can impact people’s mental states after learning
+					more about the various studies that have suggested that social media might impact people’s
+					lives negatively. A Times article cites a 2017 study by researchers Vannuci et al. that found
+					that increased time on social media was connected to higher levels of anxiety (Heid). The same
+					article also brings up the idea or “technology overload” (Heid). More time spent on our phones
+					on these social media platforms are thought to not be very healthy for your brain. Thus, there
+					is some basis for the idea that social media can negatively affect people’s mental states, which
+					justifies our project’s aim to explore how emotions might be reflected in social media. 
+				</p>
+			
+			<div id="inspiration">
+				#Inspiration
+				<p>
+					The structure of this project was inspired by other researchers who have done Twitter analysis
+					as well. A common project approach we discovered in our research was one that centered around 
+					sentiment analysis. These project designs, such as the instructions offered here, used different
+					methods to collect tweets and assign different numerical scores to them, depending on if they were
+					more positive, negative, or neutral. We applied this idea by searching for tweets in Twarc that 
+					were more positive (tweets with the words “happy” and “love” in them), neutral (tweets with the 
+					words “okay” and “alright” in them), and negative (tweets with the words “sad” and”hate” in them).
+				</p>
+				
+				<p>
+					This Word Mapper project  as well as this also inspired us to use Twarc to create our own dataset
+					and locate our own Tweets. This project allows you to type in any word and see where tweets relating
+					to that term have been tweeted. By following this same idea and using Twarc, we were able to incorporate
+					not just data centered on the amount of twitter usage in a city, but also data that includes specific
+					Twitter content.
+				</p>
+				
+			<div id="findings">
+				#Findings	
+				
+
+			<div class="sidebar">
+				<div class="sidebar-title">Happiness correlation</div>
+				<div class="sidebar-content"></div>
+			</div>
+			<div class="content"></div>
+			<div class="footer">
+				Happy Tweet | DH151 | Ivan Ma, MJ Howland, Josephine Meyer-Hogan
+			</div>
+		</div>
+		<script src="js/map.js"></script>
+	</body>
+</html>
