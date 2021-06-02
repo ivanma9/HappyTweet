@@ -149,7 +149,7 @@ function mapCSVTweet(data) {
 
 	let dataArray = data.data;
 
-	let sliced1000 = dataArray.slice(0, 100);
+	let sliced1000 = dataArray.slice(0, 200);
 
 	// loop through each entry
 	sliced1000.forEach(function (item, index) {
