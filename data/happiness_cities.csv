@@ -1,7 +1,7 @@
-Overall Rank�,CityState,Total Score�,Positive, Neutral, Negative, Emotional & Physical Well-Being�,Income & Employment�,Community & Environment,lat,lon,ST,State,City
-1,"Fremont, CA",73.66,1,46,779,184,41,5,37.550195,-121.980829,CA,California,Fremont
-2,"Bismarck, ND",71.59,5,5,23,46.87696,-96.784636,ND,North Dakota,Bismarck
-3,"Fargo, ND",70.94,9,3,17,46.80537,-100.781609,ND,North Dakota,Fargo
+Overall Rank�,CityState,Total Score�,Positive, Neutral, Negative,Emotional & Physical Well-Being�,Income & Employment�,Community & Environment,lat,lon,ST,State,City
+1,"Fremont, CA",73.66,779,184,41,1,46,5,37.550195,-121.980829,CA,California,Fremont
+2,"Bismarck, ND",71.59,1494,222,0,5,5,23,46.87696,-96.784636,ND,North Dakota,Bismarck
+3,"Fargo, ND",70.94,197,26,19,9,3,17,46.80537,-100.781609,ND,North Dakota,Fargo
 4,"Madison, WI",70.14,13,6,14,37.334807,-121.888128,WI,Wisconsin,Madison
 5,"San Jose, CA",69.47,2,21,75,43.073926,-89.385244,CA,California,San Jose
 6,"South Burlington, VT",68.73,8,11,61,44.468286,-73.171594,VT,Vermont,South Burlington
