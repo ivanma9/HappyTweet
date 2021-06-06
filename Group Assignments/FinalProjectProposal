@@ -52,7 +52,7 @@ Web mapping is a very diverse method of communicating often used to tell stories
 
 ## Technical Scope:
 
-We will be using Git for our repository for easy collaboration. Leaflet library will be used for our mapping alongside Javascript to pair with it. HTML will be used for adding elements to the website in an organized fashion. Bootstrap and CSS will be used for styling and design.
+We will be using Git for our repository for easy collaboration. Leaflet library will be used for our mapping alongside Javascript to pair with it. HTML will be used for adding elements to the website in an organized fashion. Bootstrap and CSS will be used for styling and design. We will use Twarc to collect Twitter data.
 
 ## Data:
 
