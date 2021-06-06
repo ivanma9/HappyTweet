@@ -427,6 +427,9 @@ form input {
 }
 #myBtnHelp img {
 	max-width: 50px;
+	border-radius: 30px;
+	border: solid white;
+	border-width: 3px;;
 	cursor: pointer;
 }
 .paraflex {

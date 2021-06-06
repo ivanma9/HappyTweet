@@ -1,4 +1,4 @@
-Overall Rank�,CityState,Total Score�,Positive, Neutral, Negative,Total,Emotional & Physical Well-Being�,Income & Employment�,Community & Environment,lat,lon,ST,State,City
+Overall Rank�,CityState,Total Score�,Positive,Neutral,Negative,Total,Emotional & Physical Well-Being�,Income & Employment�,Community & Environment,lat,lon,ST,State,City
 1,"Fremont, CA",73.66,779,184,41,1004,1,46,5,37.550195,-121.980829,CA,California,Fremont
 2,"Bismarck, ND",71.59,1494,222,0,1716,5,5,23,46.87696,-96.784636,ND,North Dakota,Bismarck
 3,"Fargo, ND",70.94,197,26,19,242,9,3,17,46.80537,-100.781609,ND,North Dakota,Fargo

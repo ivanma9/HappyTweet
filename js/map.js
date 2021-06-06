@@ -59,9 +59,8 @@ function makeTwitterMap() {
 function makeBothMap() {
 	if (geojson_layer) geojson_layer.clearLayers();
 		getGeoJSON();
-
+	markers.clearLayers();
 	setTimeout( () => {
-		markers.clearLayers();
 		readCSV(path1, "t");
 	}, 200);
 }
@@ -149,10 +148,8 @@ function mapCSVTweet(data) {
 
 	let dataArray = data.data;
 
-	let sliced1000 = dataArray.slice(0, 200);
-
 	// loop through each entry
-	sliced1000.forEach(function (item, index) {
+	dataArray.forEach(function (item, index) {
 		// console.log(item);
 		let marker = L.circleMarker([item.lat, item.lon], circleOptions);
 		marker.on("click", function (e) {
