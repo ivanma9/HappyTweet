@@ -109,7 +109,6 @@ li a .active {
 	padding: 10px;
 	/* background-color: rgb(63, 63, 63); */
 	background-color: #5a94d9;
-	overflow: auto;
 }
 .sidebar-title {
 	font-size: 24px;
