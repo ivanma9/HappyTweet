@@ -34,33 +34,33 @@ Overall Rank�,CityState,Total Score�,Positive,Neutral,Negative,Total,Emotion
 33,"Huntington Beach, CA",62.95,1,0,0,1,25,64,98,33.659775,-117.999313,CA,California,Huntington Beach
 34,"Aurora, CO",62.56,1,0,0,1,17,150,47,39.711213,-104.819356,CO,Colorado,Aurora
 35,"Omaha, NE",62.53,1,0,0,1,46,26,36,41.258652,-95.937195,NE,Nebraska,Omaha
-36,"Des Moines, IA",62.33,1,0,0,1,37,88,29,33.330732,-111.79034,IA,Iowa,Des Moines
-37,"Gilbert, AZ",62.09,1,0,0,1,62,47,13,35.996948,-78.899023,AZ,Arizona,Gilbert
-38,"Oakland, CA",61.38,1,0,0,1,12,127,147,41.588822,-93.620309,CA,California,Oakland
-39,"Durham, NC",61.18,1,0,0,1,34,49,80,37.804828,-122.27248,NC,North Carolina,Durham
+36,"Des Moines, IA",62.33,1,0,0,1,37,88,29,41.5868,-93.6250,IA,Iowa,Des Moines
+37,"Gilbert, AZ",62.09,1,0,0,1,62,47,13,33.3528,-111.7890,AZ,Arizona,Gilbert
+38,"Oakland, CA",61.38,1,0,0,1,12,127,147,37.8044,-122.2712,CA,California,Oakland
+39,"Durham, NC",61.18,1,0,0,1,34,49,80,35.9940,-78.8986,NC,North Carolina,Durham
 40,"Garden Grove, CA",60.81,1,0,0,1,45,96,32,33.776069,-117.937878,CA,California,Garden Grove
-41,"Anaheim, CA",60.81,1,0,0,1,40,87,55,33.834492,-117.915638,CA,California,Anaheim
+41,"Anaheim, CA",60.81,1,0,0,1,40,87,55,33.8366,-117.915638,CA,California,Anaheim
 42,"Aurora, IL",60.57,1,0,0,1,31,152,73,41.75527,-88.309507,IL,Illinois,Aurora
 43,"Portland, OR",60.52,1,0,0,1,35,41,118,33.195906,-117.379517,OR,Oregon,Portland
-44,"Oceanside, CA",60.5,1,0,0,1,36,101,60,45.516018,-122.681425,CA,California,Oceanside
+44,"Oceanside, CA",60.5,1,0,0,1,36,101,60,33.1959,-117.3795,CA,California,Oceanside
 45,"Chula Vista, CA",60.24,1,0,0,1,38,111,54,32.640071,-117.084042,CA,California,Chula Vista
 46,"Virginia Beach, VA",60.09,1,0,0,1,49,80,43,36.845117,-75.975518,VA,Virginia,Virginia Beach
 47,"Oxnard, CA",60.02,1,0,0,1,64,109,10,34.197663,-119.175947,CA,California,Oxnard
 48,"Nampa, ID",59.97,1,0,0,1,70,60,18,43.585322,-116.573581,ID,Idaho,Nampa
 49,"Chandler, AZ",59.86,1,0,0,1,67,76,24,33.302285,-111.840103,AZ,Arizona,Chandler
 50,"Nashua, NH",59.84,1,0,0,1,59,40,56,42.75787,-71.46395,NH,New Hampshire,Nashua
-51,"Washington, DC",59.59,1,0,0,1,23,69,166,33.575086,-112.237314,DC,District Of Columbia,Washington
-52,"Peoria, AZ",59.43,1,0,0,1,77,92,8,27.273274,-80.342148,AZ,Arizona,Peoria
-53,"Port St. Lucie, FL",59.33,1,0,0,1,86,71,11,33.425522,-111.941253,FL,Florida,Port St. Lucie
+51,"Washington, DC",59.59,1,0,0,1,23,69,166,38.9072,-77.0369,DC,District Of Columbia,Washington
+52,"Peoria, AZ",59.43,1,0,0,1,77,92,8,33.5806,-112.2374,AZ,Arizona,Peoria
+53,"Port St. Lucie, FL",59.33,1,0,0,1,86,71,11,27.2730,-80.3582,FL,Florida,Port St. Lucie
 54,"Santa Clarita, CA",59.26,1,0,0,1,44,149,39,34.414144,-118.554192,CA,California,Santa Clarita
-55,"Tempe, AZ",59.17,1,0,0,1,84,42,22,38.892062,-77.019912,AZ,Arizona,Tempe
+55,"Tempe, AZ",59.17,1,0,0,1,84,42,22,33.4255,-111.9400,AZ,Arizona,Tempe
 56,"Colorado Springs, CO",59.07,1,0,0,1,56,66,85,38.835224,-104.819798,CO,Colorado,Colorado Springs
 57,"Sacramento, CA",59.07,1,0,0,1,52,53,95,38.582087,-121.50012,CA,California,Sacramento
 58,"Glendale, CA",58.93,1,0,0,1,55,136,27,34.148138,-118.246437,CA,California,Glendale
-59,"Salt Lake City, UT",58.51,1,0,0,1,57,22,145,39.526903,-119.813283,UT,Utah,Salt Lake City
-60,"Denver, CO",58.32,1,0,0,1,27,124,160,40.758478,-111.888142,CO,Colorado,Denver
+59,"Salt Lake City, UT",58.51,1,0,0,1,57,22,145,40.7608,-111.8910,UT,Utah,Salt Lake City
+60,"Denver, CO",58.32,1,0,0,1,27,124,160,39.7392,-104.9903,CO,Colorado,Denver
 61,"Boston, MA",58.24,1,0,0,1,50,37,130,42.358894,-71.056742,MA,Massachusetts,Boston
-62,"Reno, NV",58.16,1,0,0,1,80,55,51,39.738453,-104.984853,NV,Nevada,Reno
+62,"Reno, NV",58.16,1,0,0,1,80,55,51,39.5296,-119.8138,NV,Nevada,Reno
 63,"Amarillo, TX",58.08,1,0,0,1,71,67,41,35.207009,-101.832013,TX,Texas,Amarillo
 64,"Juneau, AK",57.96,1,0,0,1,18,8,182,58.301084,-134.424524,AK,Alaska,Juneau
 65,"Pembroke Pines, FL",57.94,1,0,0,1,88,134,7,26.006156,-80.279747,FL,Florida,Pembroke Pines
