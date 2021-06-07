@@ -58,9 +58,9 @@ function makeTwitterMap() {
 
 function makeBothMap() {
 	if (geojson_layer) geojson_layer.clearLayers();
-		getGeoJSON();
+	getGeoJSON();
 	markers.clearLayers();
-	setTimeout( () => {
+	setTimeout(() => {
 		readCSV(path1, "t");
 	}, 200);
 }
@@ -152,8 +152,56 @@ function mapCSVTweet(data) {
 	dataArray.forEach(function (item, index) {
 		// console.log(item);
 		let marker = L.circleMarker([item.lat, item.lon], circleOptions);
+		marker.positive = item.Positive;
+		marker.neutral = item.Neutral;
+		marker.negative = item.Negative;
+		marker.title = item.CityState;
+
 		marker.on("click", function (e) {
-			map.setView(e.latlng, 13);
+			map.setView(e.latlng, 9);
+
+			document.getElementById("chart-container").style.display = "block";
+
+			const chartData = [
+				{
+					label: "Positive",
+					value: e.target.positive,
+				},
+				{
+					label: "Neutral",
+					value: e.target.neutral,
+				},
+				{
+					label: "Negative",
+					value: e.target.negative,
+				},
+			];
+
+			//STEP 3 - Chart Configurations
+			const chartConfig = {
+				type: "doughnut2d",
+				renderAt: "chart-container",
+				width: "100%",
+				height: "400",
+				dataFormat: "json",
+				dataSource: {
+					// Chart Configuration
+					chart: {
+						caption: e.target.title,
+						subCaption: "Emotion distribution",
+						formatNumber: true,
+						numberSuffix: "K",
+						theme: "fusion",
+						paletteColors: "#0FD733, #5A99B9, #E0310E",
+					},
+					// Chart Data
+					data: chartData,
+				},
+			};
+			FusionCharts.ready(function () {
+				var fusioncharts = new FusionCharts(chartConfig);
+				fusioncharts.render();
+			});
 		});
 
 		// add marker to featuregroup
@@ -384,10 +432,12 @@ function getUserMarker() {
 			let lat = value[0].y;
 			let label = value[0].label;
 			var marker = L.marker([lat, lon]).addTo(map); // CAREFULL!!! The first position corresponds to the lat (y) and the second to the lon (x)
-			
+
 			marker
 				.bindPopup(
-					`<p style="margin-bottom:3px;"><b> @You are here :) </b></p>${label}<br> <div style="text-align:center"><p style="margin:3px;">Happy Score:</p><p style="margin:2px;"> ${emojivalue? emojivalue: ""} ~ ${mojis[rangeValue]}<p></div>`
+					`<p style="margin-bottom:3px;"><b> @You are here :) </b></p>${label}<br> <div style="text-align:center"><p style="margin:3px;">Happy Score:</p><p style="margin:2px;"> ${
+						emojivalue ? emojivalue : ""
+					} ~ ${mojis[rangeValue]}<p></div>`
 				)
 				.openPopup(); // note the "openPopup()" method. It only works on the marker
 			console.log(label + " : " + lon + " , " + lat);
