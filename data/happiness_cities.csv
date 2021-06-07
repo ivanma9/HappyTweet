@@ -109,14 +109,14 @@ Overall Rank�,CityState,Total Score�,Positive,Neutral,Negative,Total,Emotion
 108,"Jersey City, NJ",52.88,1,0,0,1,82,177,82,40.717495,-74.044111,NJ,New Jersey,Jersey City
 109,"St. Petersburg, FL",52.57,1,0,0,1,124,51,112,27.772069,-82.638488,FL,Florida,St. Petersburg
 110,"Columbus, OH",52.48,1,0,0,1,106,110,117,39.962649,-82.996216,OH,Ohio,Columbus
-111,"Jacksonville, FL",52.41,1,0,0,1,137,98,52,33.767168,-118.193723,FL,Florida,Jacksonville
-112,"Long Beach, CA",52.39,1,0,0,1,68,171,141,30.325968,-81.65676,CA,California,Long Beach
+111,"Jacksonville, FL",52.41,1,0,0,1,137,98,52,30.3322,-81.6557,FL,Florida,Jacksonville
+112,"Long Beach, CA",52.39,1,0,0,1,68,171,141,33.7701,-118.19376,CA,California,Long Beach
 113,"Bridgeport, CT",52.37,1,0,0,1,63,176,106,41.179195,-73.189476,CT,Connecticut,Bridgeport
 114,"Milwaukee, WI",52.28,1,0,0,1,91,162,114,43.041072,-87.909421,WI,Wisconsin,Milwaukee
 115,"Henderson, NV",52.26,1,0,0,1,101,170,68,36.034095,-114.984455,NV,Nevada,Henderson
-116,"Warwick, RI",52.07,1,0,0,1,133,78,69,33.583578,-101.855113,RI,Rhode Island,Warwick
-117,"Lubbock, TX",51.93,1,0,0,1,116,33,157,39.099792,-94.578559,TX,Texas,Lubbock
-118,"Kansas City, MO",51.9,1,0,0,1,102,121,140,41.698709,-71.460018,MO,Missouri,Kansas City
+116,"Warwick, RI",52.07,1,0,0,1,133,78,69,41.7001,-71.4162,RI,Rhode Island,Warwick
+117,"Lubbock, TX",51.93,1,0,0,1,116,33,157,33.5779,-101.8552,TX,Texas,Lubbock
+118,"Kansas City, MO",51.9,1,0,0,1,102,121,140,39.0997,-94.5786,MO,Missouri,Kansas City
 119,"Glendale, AZ",51.71,1,0,0,1,107,145,110,33.539812,-112.186106,AZ,Arizona,Glendale
 120,"Albuquerque, NM",51.04,1,0,0,1,89,72,178,35.084248,-106.649241,NM,New Mexico,Albuquerque
 121,"Orlando, FL",50.93,1,0,0,1,129,97,105,28.538331,-81.378879,FL,Florida,Orlando
@@ -125,22 +125,22 @@ Overall Rank�,CityState,Total Score�,Positive,Neutral,Negative,Total,Emotion
 124,"Rochester, NY",50.52,1,0,0,1,118,135,129,43.155708,-77.612547,NY,New York,Rochester
 125,"Brownsville, TX",50.21,1,0,0,1,151,122,28,25.903046,-97.498884,TX,Texas,Brownsville
 126,"Phoenix, AZ",50.13,1,0,0,1,103,148,158,33.448204,-112.072585,AZ,Arizona,Phoenix
-127,"Winston-Salem, NC",49.92,1,0,0,1,134,84,134,31.76006,-106.492257,NC,North Carolina,Winston-Salem
-128,"El Paso, TX",49.92,1,0,0,1,146,142,62,36.096261,-80.243735,TX,Texas,El Paso
+127,"Winston-Salem, NC",49.92,1,0,0,1,134,84,134,36.0999,-80.2442,NC,North Carolina,Winston-Salem
+128,"El Paso, TX",49.92,1,0,0,1,146,142,62,31.7619,-106.4850,TX,Texas,El Paso
 129,"Fort Smith, AR",49.83,1,0,0,1,158,75,48,35.386636,-94.424357,AR,Arkansas,Fort Smith
 130,"Miami, FL",49.82,1,0,0,1,126,133,128,25.775084,-80.194702,FL,Florida,Miami
 131,"Richmond, VA",49.68,1,0,0,1,117,144,146,37.540759,-77.433932,VA,Virginia,Richmond
 132,"Greensboro, NC",49.51,1,0,0,1,123,85,159,36.072701,-79.793899,NC,North Carolina,Greensboro
-133,"Jackson, MS",49.41,1,0,0,1,131,154,96,36.846164,-76.285913,MS,Mississippi,Jackson
-134,"Norfolk, VA",49.35,1,0,0,1,122,160,126,39.76845,-86.156212,VA,Virginia,Norfolk
-135,"Buffalo, NY",49.18,1,0,0,1,141,115,119,27.796416,-97.404131,NY,New York,Buffalo
-136,"Indianapolis, IN",49.14,1,0,0,1,115,169,121,32.302897,-90.183488,IN,Indiana,Indianapolis
-137,"Corpus Christi, TX",49.11,1,0,0,1,132,103,151,42.887691,-78.879374,TX,Texas,Corpus Christi
+133,"Jackson, MS",49.41,1,0,0,1,131,154,96,32.2988,-90.1848,MS,Mississippi,Jackson
+134,"Norfolk, VA",49.35,1,0,0,1,122,160,126,36.8508,-76.2859,VA,Virginia,Norfolk
+135,"Buffalo, NY",49.18,1,0,0,1,141,115,119,42.8864,-78.8784,NY,New York,Buffalo
+136,"Indianapolis, IN",49.14,1,0,0,1,115,169,121,39.7684,-86.1581,IN,Indiana,Indianapolis
+137,"Corpus Christi, TX",49.11,1,0,0,1,132,103,151,27.8006,-97.3964,TX,Texas,Corpus Christi
 138,"Worcester, MA",48.92,1,0,0,1,114,126,172,42.262073,-71.802278,MA,Massachusetts,Worcester
 139,"Chattanooga, TN",48.84,1,0,0,1,159,79,77,35.045756,-85.308287,TN,Tennessee,Chattanooga
-140,"Knoxville, TN",48.66,1,0,0,1,170,30,72,29.425173,-98.494599,TN,Tennessee,Knoxville
-141,"San Antonio, TX",48.61,1,0,0,1,145,89,133,32.221878,-110.971225,TX,Texas,San Antonio
-142,"Tucson, AZ",48.37,1,0,0,1,142,100,142,35.468494,-97.521264,AZ,Arizona,Tucson
+140,"Knoxville, TN",48.66,1,0,0,1,170,30,72,35.9606,-83.9207,TN,Tennessee,Knoxville
+141,"San Antonio, TX",48.61,1,0,0,1,145,89,133,29.4241,-98.4936,TX,Texas,San Antonio
+142,"Tucson, AZ",48.37,1,0,0,1,142,100,142,32.2226,-110.9747,AZ,Arizona,Tucson
 143,"Oklahoma City, OK",48.36,1,0,0,1,144,113,132,35.4676,-97.5164,OK,Oklahoma,Oklahoma City
 144,"New Haven, CT",48.16,1,0,0,1,98,153,175,41.308252,-72.924161,CT,Connecticut,New Haven
 145,"Providence, RI",47.95,1,0,0,1,167,82,53,41.824461,-71.412747,RI,Rhode Island,Providence
