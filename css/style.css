@@ -14,7 +14,7 @@ html {
 	position: absolute;
 	z-index: 4;
 
-	right:2vw;
+	right: 2vw;
 	top: 2vw;
 	width: 400px;
 	height: 300px;
@@ -356,7 +356,7 @@ form input {
 	font-size: 30px;
 	width: 70%;
 }
-.submitbutton{
+.submitbutton {
 	margin-top: 30px;
 }
 
@@ -385,9 +385,9 @@ form input {
 }
 /* The Modal (background) */
 .modal {
-	display: none; /* Hidden by default */
+	display: block; /* Hidden by default */
 	position: fixed; /* Stay in place */
-	z-index: 2; /* Sit on top */
+	z-index: 8; /* Sit on top */
 	left: 0;
 	top: 0;
 	width: 100%; /* Full width */
@@ -434,12 +434,22 @@ form input {
 	background-color: #5a94d9;
 	border: none;
 }
-#myBtnHelp img {
+#myBtnHelpimg {
 	max-width: 50px;
 	border-radius: 30px;
 	border: solid white;
-	border-width: 3px;;
+	border-width: 3px;
+	animation: blinker 1.5s 5;
+
 	cursor: pointer;
+}
+#myBtnHelpimg:active{
+	animation: blinker 1.5s 30;
+}
+@keyframes blinker {
+	50% {
+		opacity: 0.2;
+	}
 }
 .paraflex {
 	display: flex;
