@@ -23,12 +23,12 @@ Overall Rank�,CityState,Total Score�,Positive,Neutral,Negative,Total,Emotion
 22,"Honolulu, HI",64.45,15541,17708,690,33939,19,112,15,21.30992,-157.858158,HI,Hawaii,Honolulu
 23,"Portland, ME",64.4,3080,684,174,3938,32,17,74,43.659218,-70.256519,ME,Maine,Portland
 24,"St. Paul, MN",64.31,15606,848,357,16811,22,56,66,44.943719,-93.094281,MN,Minnesota,St. Paul
-25,"Scottsdale, AZ",64.22,2658,712,290,3660,53,48,3,43.659218,-70.256519,AZ,Arizona,Scottsdale
+25,"Scottsdale, AZ",64.22,2658,712,290,3660,53,48,3,33.4942,-111.9261,AZ,Arizona,Scottsdale
 26,"San Diego, CA",64.17,32306,4724,2533,39563,30,39,25,32.71576,-117.163817,CA,California,San Diego
 27,"Austin, TX",64.13,35089,5963,3401,44453,20,24,94,30.264979,-97.746598,TX,Texas,Austin
 28,"Overland Park, KS",64.09,7440,262,109,7811,41,12,30,38.974799,-94.683622,KS,Kansas,Overland Park
-29,"Missoula, MT",63.76,13041,1049,455,14545,29,19,83,42.965446,-85.670209,MT,Montana,Missoula
-30,"Grand Rapids, MI",63.56,758,155,74,987,48,20,16,46.872129,-113.994017,MI,Michigan,Grand Rapids
+29,"Missoula, MT",63.76,13041,1049,455,14545,29,19,83,46.872129,-113.994017,MT,Montana,Missoula
+30,"Grand Rapids, MI",63.56,758,155,74,987,48,20,16,42.9634,-85.6681,MI,Michigan,Grand Rapids
 31,"Cape Coral, FL",63.23,17576,398,214,18188,54,52,4,26.629814,-81.956363,FL,Florida,Cape Coral
 32,"Raleigh, NC",62.97,1,0,0,1,28,70,67,35.781295,-78.64167,NC,North Carolina,Raleigh
 33,"Huntington Beach, CA",62.95,1,0,0,1,25,64,98,33.659775,-117.999313,CA,California,Huntington Beach
