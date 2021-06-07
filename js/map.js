@@ -156,6 +156,7 @@ function mapCSVTweet(data) {
 		marker.neutral = item.Neutral;
 		marker.negative = item.Negative;
 		marker.title = item.CityState;
+		marker.score = item.HappyScore; 
 
 		marker.on("click", function (e) {
 			map.setView(e.latlng, 9);
@@ -188,7 +189,8 @@ function mapCSVTweet(data) {
 					// Chart Configuration
 					chart: {
 						caption: e.target.title,
-						subCaption: "Emotion distribution",
+						subCaption: "Score: " + e.target.score,
+						subCaptionFontSize: 30,
 						formatNumber: true,
 						numberSuffix: "K",
 						theme: "fusion",
