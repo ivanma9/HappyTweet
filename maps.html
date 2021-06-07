@@ -41,6 +41,17 @@
 			crossorigin="anonymous"
 		></script>
 
+		<!-- Step 1 - Include the fusioncharts core library -->
+		<script
+			type="text/javascript"
+			src="https://cdn.fusioncharts.com/fusioncharts/latest/fusioncharts.js"
+		></script>
+		<!-- Step 2 - Include the fusion theme -->
+		<script
+			type="text/javascript"
+			src="https://cdn.fusioncharts.com/fusioncharts/latest/themes/fusioncharts.theme.fusion.js"
+		></script>
+
 		<!-- papaparse for csv data -->
 		<script src="js/papaparse.min.js"></script>
 
@@ -63,6 +74,7 @@
 						</button>
 						<p>
 							This is a choropleth map of happiness scores assigned to different
+<<<<<<< Updated upstream
 							U.S. cities. The data represented was collected by <i>Wallethub</i> from
 							various reports and surveys reporting different measures
 							reflecting happiness. The researchers assigned weights to each
@@ -74,6 +86,18 @@
 							and greener scores represent higher happiness scores, meaning higher
 							levels of happiness. The middle range of lighter greens and oranges represent
 							more neutral levels.
+=======
+							U.S. cities. The data represented was collected by
+							<i>Wallethub</i> from various reports and surveys reporting
+							different measures reflecting happiness. The researchers assigned
+							weights to each measure analyzed to calculate an overall happiness
+							score for each city. The map represents average happiness scores
+							of the multiple cities recorded for each state. Each state is
+							categorized into different colors based off these scores. Red
+							colors represent lower average happiness scores, meaning lower
+							levels of happiness, and green scores represent higher happiness
+							scores, meaning higher levels of happiness.
+>>>>>>> Stashed changes
 						</p>
 					</div>
 					<div class="paraflex">
@@ -81,12 +105,23 @@
 							<img src="Group Assignments/img/10wmt-superJumbo-v4 1.png" />
 						</button>
 						<p>
+<<<<<<< Updated upstream
 							This is a map showing data that we collected using Twarc. For 31 
 							cities with the top highest happiness scores recorded by <i>Wallethub</i>
 							there is information about the number of times tweets with the following words
 							appeared: “happy,” “love,” “okay,” “alright,” “sad” and “hate.” “Happy” and
 							“love” represent higher happiness levels, while “okay” and “alright” represent
 							neutral levels, and “sad” and “hate” represent lower levels. 
+=======
+							This is a map showing data that we collected using Twarc. For 30
+							cities with the top highest happiness scores recorded by
+							<i>Wallethub</i>
+							there is information about the number of times tweets with the
+							following words appeared: “happy,” “love,” “okay,” “alright,”
+							“sad” and “hate.” “Happy” and “love” represent higher happiness
+							levels, while “okay” and “alright” represent neutral levels, and
+							“sad” and “hate” represent lower levels.
+>>>>>>> Stashed changes
 						</p>
 					</div>
 					<div class="paraflex">
@@ -96,8 +131,8 @@
 							/>
 						</button>
 						<p>
-							This button will show the happiness map and the
-							twitter map overlaid on top of each other.
+							This button will show the happiness map and the twitter map
+							overlaid on top of each other.
 						</p>
 					</div>
 				</div>
@@ -112,7 +147,9 @@
 					<ul>
 						<li><a href="maps.html">#MAPS </a></li>
 						<li><a href="about.html">#ABOUT </a></li>
-						<li><a href="thoughtsandfindings.html">#THOUGHTS AND FINDINGS</a></li>
+						<li>
+							<a href="thoughtsandfindings.html">#THOUGHTS AND FINDINGS</a>
+						</li>
 					</ul>
 				</nav>
 				<hr class="rounded" />
@@ -161,7 +198,9 @@
 						<p>@BothMaps</p>
 					</div>
 					<div class="map-option">
-					<form action="index.html"><input id ="explore" type="submit" value="How happy am I?" /></form>
+						<form action="index.html">
+							<input id="explore" type="submit" value="How happy am I?" />
+						</form>
 					</div>
 				</div>
 			</div>
